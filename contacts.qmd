@@ -1,0 +1,31 @@
+---
+title: Instructional Team
+subtitle: IDS:705 Principles of Machine Learning
+toc: false
+number-sections: false
+---
+
+::: {.callout-tip}
+## Contact Us & Office Hours
+
+Reach out to us through Ed Discussions for any questions. Office hours are also posted on Ed.
+:::
+
+### Instructor
+
+![Kyle Bradbury ([{{< fa envelope >}}](mailto: kyle.bradbury@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/bradburykyle/))](img/kylebradbury.jpeg){fig-align="left"}
+
+Dr. Kyle Bradbury develops and applies machine learning techniques to better understand and manage energy and climate resources. His work focuses on how to advance machine learning methodologies and apply them to solve energy and
+climate system challenges through the development of open source, widely-applicable computational tools. His current research interests include developing scalable computer vision techniques for assessing energy resources, infrastructure, and access globally through the use of publicly available remote sensing data. Methodologically, he investigates how to overcome the challenge of distribution shift in computer vision through novel training paradigms that require less labeled data. 
+
+
+### Teaching Assistants
+
+::: {layout-nrow=1}
+![Susanna Anil ([{{< fa envelope >}}](mailto: susanna.anil@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/susanna-anil/))](img/anil_suzy.jpg){fig-align="left" width=30%}
+
+![Dingkun Yang ([{{< fa envelope >}}](mailto: dingkun.yang@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/dyang7/))](img/yang_dingkun.jpg){fig-align="left" width=30%}
+
+![Yuanjing Zhu ([{{< fa envelope >}}](mailto: yuanjing.zhu@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/yuanjing-zhu/))](img/zhu_yuanjing.jpg){fig-align="left" width=30%}
+
+:::

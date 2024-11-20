@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: docs
+  # resources: 
+  #   - "/assignments/**"
+  render:
+    - "*.qmd"
+    - "*.ipynb"
+    - "!assignments/*"
+    - "!archive/*"
+    - "!lectures/*"
+
+website:
+  title: "IDS705: Principles of Machine Learning"
+  navbar:
+    left:
+      - href: ./schedule.qmd
+        text: Schedule
+      - href: https://canvas.duke.edu/courses/26492
+        text: Canvas
+      - href: https://edstem.org/us/courses/50969/
+        text: Ed Discussions
+      - href: https://www.gradescope.com/courses/691361
+        text: Gradescope
+  # google-analytics: "G-63SKKDGFHG"
+    # tools:
+    #   - icon: linkedin
+    #     href: https://twitter.com
+    #   - icon: github
+    #     menu:
+    #       - text: Source Code
+    #         url:  https://code.com
+    #       - text: Report a Bug
+    #         url:  https://bugs.com
+  sidebar:
+    # style: "docked"
+    search: true
+    contents:
+      - section: "Syllabus"
+        contents:
+          - index.qmd
+          - syllabus.qmd
+          - schedule.qmd
+          - contacts.qmd
+          - pedagogy.qmd
+          - tools.qmd
+          - project.qmd
+      # - section: "Assignments"
+      #   contents:
+      #     - assignments/assignment1.qmd
+      - section: "Resources"
+        contents:
+          - notebooks/assignment_instructions.ipynb
+          - text: "File structure template"
+            href: https://github.com/kylebradbury/ml-project-structure-demo
+format:
+  html:
+    theme: 
+      - cosmo
+      # - style.css
+    css: styles.css
+    toc: true
+    grid:
+      # sidebar-width: 300px
+      body-width: 1100px
+      # margin-width: 100px
+      # gutter-width: 1rem

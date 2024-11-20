@@ -1,0 +1,8 @@
+**/.DS_Store
+
+archive/
+archive/*
+
+/.quarto/
+/_extensions/
+/_site/
