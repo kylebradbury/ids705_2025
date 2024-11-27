@@ -1,5 +1,21 @@
 {
   "image": "ghcr.io/quarto-dev/quarto:1.7.1",
   "features": {
+  },
+  // "vscode": {
+  //   "extensions":[
+  //     "ms-python.python", 
+  //     "quarto.quarto"
+  //   ],
+  //   "settings": {
+  //     "extensions.verifySignature": false
+  //   }
+  // },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "quarto.quarto"
+      ]
+    }
   }
 }
