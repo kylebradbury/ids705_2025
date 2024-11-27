@@ -22,10 +22,12 @@ climate system challenges through the development of open source, widely-applica
 ### Teaching Assistants
 
 ::: {layout-nrow=1}
-![Susanna Anil ([{{< fa envelope >}}](mailto: susanna.anil@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/susanna-anil/))](img/anil_suzy.jpg){fig-align="left" width=30%}
+![Poojitha Balamurugan ([{{< fa envelope >}}](mailto: poojitha.balamurugan@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/susanna-anil/))](img/anil_suzy.jpg){fig-align="left" width=25%}
 
-![Dingkun Yang ([{{< fa envelope >}}](mailto: dingkun.yang@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/dyang7/))](img/yang_dingkun.jpg){fig-align="left" width=30%}
+![Aarya Desai ([{{< fa envelope >}}](mailto: aarya.desai@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/dyang7/))](img/yang_dingkun.jpg){fig-align="left" width=25%}
 
-![Yuanjing Zhu ([{{< fa envelope >}}](mailto: yuanjing.zhu@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/yuanjing-zhu/))](img/zhu_yuanjing.jpg){fig-align="left" width=30%}
+![Dhaval Potdar ([{{< fa envelope >}}](mailto: dhaval.potdar@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/yuanjing-zhu/))](img/zhu_yuanjing.jpg){fig-align="left" width=25%}
+
+![Rakeen Rouf ([{{< fa envelope >}}](mailto: rakeen.rouf@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/yuanjing-zhu/))](img/zhu_yuanjing.jpg){fig-align="left" width=25%}
 
 :::

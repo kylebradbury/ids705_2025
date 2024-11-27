@@ -16,11 +16,11 @@ website:
     left:
       - href: ./schedule.qmd
         text: Schedule
-      - href: https://canvas.duke.edu/courses/26492
+      - href: https://canvas.duke.edu/courses/50392
         text: Canvas
-      - href: https://edstem.org/us/courses/50969/
+      - href: https://edstem.org/us/courses/69557/
         text: Ed Discussions
-      - href: https://www.gradescope.com/courses/691361
+      - href: https://www.gradescope.com/courses/917973
         text: Gradescope
   # google-analytics: "G-63SKKDGFHG"
     # tools:
