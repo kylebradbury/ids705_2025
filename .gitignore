@@ -3,6 +3,7 @@
 archive/
 archive/*
 
+# /.quarto/
+# /_extensions/
+# /_site/
 /.quarto/
-/_extensions/
-/_site/
