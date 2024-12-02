@@ -15,18 +15,17 @@ Reach out to us through Ed Discussions for any questions. Office hours are also 
 
 ![Kyle Bradbury ([{{< fa envelope >}}](mailto: kyle.bradbury@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/bradburykyle/))](img/kylebradbury.jpeg){fig-align="left"}
 
-Dr. Kyle Bradbury develops and applies machine learning techniques to better understand and manage energy and climate resources. His work focuses on how to advance machine learning methodologies and apply them to solve energy and
-climate system challenges through the development of open source, widely-applicable computational tools. His current research interests include developing scalable computer vision techniques for assessing energy resources, infrastructure, and access globally through the use of publicly available remote sensing data. Methodologically, he investigates how to overcome the challenge of distribution shift in computer vision through novel training paradigms that require less labeled data. 
+Dr. Kyle Bradbury develops and applies machine learning techniques to better understand and manage energy and climate resources. His work focuses on how to advance machine learning methodologies and apply them to solve energy and climate system challenges through the development of open source, widely-applicable computational tools. His current research interests include developing scalable computer vision techniques for assessing energy resources, infrastructure, and access globally through the use of publicly available remote sensing data. Methodologically, he investigates how to overcome the challenge of distribution shift in computer vision through novel training paradigms that require less labeled data. 
 
 
 ### Teaching Assistants
 
 ::: {layout-nrow=1}
-![Poojitha Balamurugan ([{{< fa envelope >}}](mailto: poojitha.balamurugan@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/susanna-anil/))](img/anil_suzy.jpg){fig-align="left"}
+![Poojitha Balamurugan ([{{< fa envelope >}}](mailto: poojitha.balamurugan@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/poojithabalamurugan/))](img/balamurugan_poojitha.jpg){fig-align="left"}
 
 ![Aarya Desai ([{{< fa envelope >}}](mailto: aarya.desai@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/dyang7/))](img/yang_dingkun.jpg){fig-align="left"}
 
-![Dhaval Potdar ([{{< fa envelope >}}](mailto: dhaval.potdar@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/yuanjing-zhu/))](img/zhu_yuanjing.jpg){fig-align="left"}
+![Dhaval Potdar ([{{< fa envelope >}}](mailto: dhaval.potdar@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/dhavalpotdar/))](img/potdar_dhaval.jpg.jpg){fig-align="left"}
 
 ![Rakeen Rouf ([{{< fa envelope >}}](mailto: rakeen.rouf@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/yuanjing-zhu/))](img/zhu_yuanjing.jpg){fig-align="left"}
 
