@@ -9,6 +9,8 @@ project:
     - "!assignments/*"
     - "!archive/*"
     - "!lectures/*"
+    - "!solutions/*"
+    - "!dev/*"
 
 website:
   title: "IDS705: Principles of Machine Learning"
@@ -44,10 +46,11 @@ website:
           - contacts.qmd
           - pedagogy.qmd
           - tools.qmd
+          - resources.qmd
           - project.qmd
-      # - section: "Assignments"
-      #   contents:
-      #     - assignments/assignment1.qmd
+      - section: "Assignments"
+        contents:
+          - notebooks/Assignment_1.ipynb
       - section: "Resources"
         contents:
           - notebooks/assignment_instructions.ipynb

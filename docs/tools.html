@@ -182,6 +182,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Final Project</span></a>
   </div>
@@ -191,12 +197,29 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Resources</span></a>
+ <span class="menu-text">Assignments</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/Assignment_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assignment 1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./notebooks/assignment_instructions.html" class="sidebar-item-text sidebar-link">
@@ -224,6 +247,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#programming-language-python" id="toc-programming-language-python" class="nav-link active" data-scroll-target="#programming-language-python">Programming language: Python</a></li>
   <li><a href="#development-environments-vs-code-and-jupyter-notebooks" id="toc-development-environments-vs-code-and-jupyter-notebooks" class="nav-link" data-scroll-target="#development-environments-vs-code-and-jupyter-notebooks">Development environments: VS Code and Jupyter Notebooks</a></li>
   <li><a href="#graphics-processing-units-gpus" id="toc-graphics-processing-units-gpus" class="nav-link" data-scroll-target="#graphics-processing-units-gpus">Graphics processing units (GPUs)</a></li>
+  <li><a href="#version-control-via-git" id="toc-version-control-via-git" class="nav-link" data-scroll-target="#version-control-via-git">Version Control via Git</a></li>
   </ul>
 </nav>
     </div>
@@ -262,6 +286,14 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="graphics-processing-units-gpus">Graphics processing units (GPUs)</h3>
 <p>GPUs are the workhorses of many modern machine learning algorithms, especially any that involve neural network-based architectures. There will be a small number of assignments that will require additional computation from that of GPUs. For these, we will use Google Colab, which is a free notebook environment that enables access to cloud resources including GPUs. For longer sessions before timeouts, greater RAM, and better GPUs you can optionally upgrade to Colab Pro.</p>
 <p>We will also be making a limited number of cloud credits available to students later in the semester.</p>
+</section>
+<section id="version-control-via-git" class="level2">
+<h2 class="anchored" data-anchor-id="version-control-via-git">Version Control via Git</h2>
+<p>Git is efficient for collaboration, and expectation in industry, and one of the best ways to share results in academia. You can even use some Git repositories (e.g.&nbsp;Github) as hosts for website, such as with the <a href="https://kylebradbury.github.io/ids705/index.html">course website</a>. As a data scientist with experience in machine learning, Git is expected. We will interact with Git repositories (a.k.a. repos) throughout this course, and your project will require the use of git repos for collaboration.</p>
+<p>Complete the <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">Atlassian Git tutorial</a>, specifically the following listed sections. Try each concept that’s presented. For this tutorial, instead of using BitBucket as your remote repository host, you may use your preferred platform such as <a href="https://github.com/">Github</a> or <a href="https://gitlab.oit.duke.edu/users/sign_in">Duke’s Gitlab</a>. 1. <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">What is version control</a> 2. <a href="https://www.atlassian.com/git/tutorials/what-is-git">What is Git</a> 3. <a href="https://www.atlassian.com/git/tutorials/install-git">Install Git</a> 4. <a href="https://www.atlassian.com/git/tutorials/install-git">Setting up a repository</a> 5. <a href="https://www.atlassian.com/git/tutorials/saving-changes">Saving changes</a> 6. <a href="https://www.atlassian.com/git/tutorials/inspecting-a-repository">Inspecting a repository</a> 7. <a href="https://www.atlassian.com/git/tutorials/undoing-changes">Undoing changes</a> 8. <a href="https://www.atlassian.com/git/tutorials/rewriting-history">Rewriting history</a> 9. <a href="https://www.atlassian.com/git/tutorials/syncing">Syncing</a> 10. <a href="https://www.atlassian.com/git/tutorials/making-a-pull-request">Making a pull request</a> 11. <a href="https://www.atlassian.com/git/tutorials/using-branches">Using branches</a> 12. <a href="https://www.atlassian.com/git/tutorials/comparing-workflows">Comparing workflows</a></p>
+<p>I also have created two videos on the topic to help you understand some of these concepts: <a href="https://www.youtube.com/watch?v=fBCwfoBr2ng">Git basics</a> and a <a href="https://www.youtube.com/watch?v=nH7qJHx-h5s">step-by-step tutorial</a>.</p>
+<p>As an additional resource, Microsoft now offers a git <a href="https://learn.microsoft.com/en-us/collections/o1njfe825p602p">tutorial</a> on this topic as well.</p>
+<p>For your answer, affirm that you <em>either</em> completed the tutorials above OR have previous experience with ALL of the concepts above. Confirm this by typing your name below and selecting the situation that applies from the two options in brackets.</p>
 
 
 </section>

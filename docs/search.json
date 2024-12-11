@@ -1,98 +1,81 @@
 [
   {
-    "objectID": "notebooks/assignment_instructions.html",
-    "href": "notebooks/assignment_instructions.html",
-    "title": "Assignment Instructions",
+    "objectID": "notebooks/probability-review.html",
+    "href": "notebooks/probability-review.html",
+    "title": "Probability Review",
     "section": "",
-    "text": "Place your answer in the indicated place in the document. Each question is followed by one or more sections, each with an empty cell called “ANSWER”. Insert your answer for that question below the word “ANSWER”. You may use multiple cells for each answer that include both markdown and code.\nEnsure that all cells have been run. Cells that have not been run will be treated as unanswered questions and assigned zero points.\nCreate a PDF document of your notebook. There are a few ways to do this. Please see the guide below.\nCheck that your content is easily legible prior to submission. Look over your PDF before you submit it. If we cannot read it, or parts are missing, we cannot grade it, and no credit will be given for anything we cannot read.\nSubmit your pdf by the deadline on gradescope. Any assignments received after the deadline will be treated as late. Please see this video for how to submit your assignment on gradescope. The submission link is here: https://www.gradescope.com/\nAssign the respective pages to each question. When you submit your assignment on Gradescope, you will be asked to assign pages of your PDF to each question accordingly. Please remember, as stated in item 4, if we cannot find your answer, we cannot grade it.\n\nSee below for a checklist for your document before you submit.",
-    "crumbs": [
-      "Schedule",
-      "Resources",
-      "Assignment Instructions"
-    ]
+    "text": "## TEMP"
   },
   {
-    "objectID": "notebooks/assignment_instructions.html#how-to-submit-assignments",
-    "href": "notebooks/assignment_instructions.html#how-to-submit-assignments",
-    "title": "Assignment Instructions",
+    "objectID": "notebooks/Assignment_1.html",
+    "href": "notebooks/Assignment_1.html",
+    "title": "Assignment 1",
     "section": "",
-    "text": "Place your answer in the indicated place in the document. Each question is followed by one or more sections, each with an empty cell called “ANSWER”. Insert your answer for that question below the word “ANSWER”. You may use multiple cells for each answer that include both markdown and code.\nEnsure that all cells have been run. Cells that have not been run will be treated as unanswered questions and assigned zero points.\nCreate a PDF document of your notebook. There are a few ways to do this. Please see the guide below.\nCheck that your content is easily legible prior to submission. Look over your PDF before you submit it. If we cannot read it, or parts are missing, we cannot grade it, and no credit will be given for anything we cannot read.\nSubmit your pdf by the deadline on gradescope. Any assignments received after the deadline will be treated as late. Please see this video for how to submit your assignment on gradescope. The submission link is here: https://www.gradescope.com/\nAssign the respective pages to each question. When you submit your assignment on Gradescope, you will be asked to assign pages of your PDF to each question accordingly. Please remember, as stated in item 4, if we cannot find your answer, we cannot grade it.\n\nSee below for a checklist for your document before you submit.",
+    "text": "Version 1: Updated 12/11/24",
     "crumbs": [
       "Schedule",
-      "Resources",
-      "Assignment Instructions"
+      "Assignments",
+      "Assignment 1"
     ]
   },
   {
-    "objectID": "notebooks/assignment_instructions.html#jupyter-notebooks",
-    "href": "notebooks/assignment_instructions.html#jupyter-notebooks",
-    "title": "Assignment Instructions",
-    "section": "Jupyter Notebooks",
-    "text": "Jupyter Notebooks\nIf you could use help getting started or a refresher on Jupyter notebooks, check out this video for more on basic Jupyter functionality. Using Jupyter notebooks allows you to practice applying machine learning concepts while building programming and writing skills, strengthening your ability to both create creative solutions to machine learning challenges while simultaneously enhancing your ability to communicate the meaning behind your findings and why others should give credence to your results.",
+    "objectID": "notebooks/Assignment_1.html#exercise-1---probability",
+    "href": "notebooks/Assignment_1.html#exercise-1---probability",
+    "title": "Assignment 1",
+    "section": "Exercise 1 - Probability",
+    "text": "Exercise 1 - Probability\n1A. Probabilistic Reasoning I. You are handed three fair dice and roll them sequentially. What’s the probability of the sum of the dice is 10 if the result of the roll of the first die is a 1?\n1B. Probabilistic Computation I. Replicate the scenario in part A and simulate the the scenario by creating 1 million synthetic rolls of the three dice and determine what fraction of outcomes has an outcome of 1 from the first die and a sum of 10 across the three die.\n1C. Probabilistic Reasoning II. A test for a rare disease has a 95% chance of detecting the disease if a person has it (true positive rate) and a 3% chance of wrongly detecting it if a person does not have it (false positive rate). If 1 in 1,000 people actually have the disease, what is the probability that a randomly chosen person who tests positive actually has the disease?\n1D. Discrete Probability Theory. A discrete random variable \\(X\\) is distributed as follows (probability mass function):\n\\(P(X = x) = \\begin{cases}\n                0.2 & x = -1 \\\\\n                0.5 & x = 0 \\\\\n                0.3 & x = 1\n            \\end{cases}\\)\nWhat is the expected value, \\(E_X[X]\\) and variance, \\(Var_X(X)\\) of the random variable \\(X\\)?",
     "crumbs": [
       "Schedule",
-      "Resources",
-      "Assignment Instructions"
+      "Assignments",
+      "Assignment 1"
     ]
   },
   {
-    "objectID": "notebooks/assignment_instructions.html#rendering-a-pdf-file",
-    "href": "notebooks/assignment_instructions.html#rendering-a-pdf-file",
-    "title": "Assignment Instructions",
-    "section": "Rendering a PDF file",
-    "text": "Rendering a PDF file\n\nOption 1: Render from VS Code (without additional extensions)\nWe recommend using VS Code for this course and for use in developing your Jupyter notebooks. Rendering pdfs from Jupyter Notebooks in VS Code has a couple of extra steps, though. To render a pdf without any additional extensions, you do the following:\n\nOpen your notebook in VS code and hit the ellipsis (the three horizontal dots) just to the right of the tools for your notebook:\n\n\n\nClick “Export”:\n\n\n\nSelect “HTML” (exporting to pdf won’t work without the installation of additional tools):\n\n\n\nOpen the HTML file you just saved in Chrome:\n\n\n\nClick the options button (three vertical dots) and click “print”:\n\n\n\nSelect the destination as “Save as PDF” and click “Save”:\n\n\n\nVoila! You should have a pdf\n\n\n\nOption 2: Render from VS Code with Quarto and LaTeX\nYou can save a lot of the above steps if you’re willing to install 2 things: 1. Install Quarto, which is an open-source scientific and technical publishing system (great for making websites and blogs for your professional portfolio). 2. Install the Quarto VS Code extension 3. Install a version of tex for your operating system. 4. Once you do this, you can directly export your documents to pdf:\n\n\n\nOption 3: Render from Jupyter Notebooks\nOpen your notebook in a Jupyter Notebook in Google Chrome. Go to File-&gt;Print Preview, then after verifying the document looks correct, click “print” and for your printer choose “Save as PDF.”\nWhichever method you choose - always check your pdf before submitting to make sure everything is rendered and nothing is cut off!",
+    "objectID": "notebooks/Assignment_1.html#exercise-2---probability-distributions-and-modeling",
+    "href": "notebooks/Assignment_1.html#exercise-2---probability-distributions-and-modeling",
+    "title": "Assignment 1",
+    "section": "Exercise 2 - Probability Distributions and Modeling",
+    "text": "Exercise 2 - Probability Distributions and Modeling\nYou’ve been asked to create a model of wait time for customers at the local Registry of Motor Vehicles. They’re open 8 hours a day and the maximum wait time is 8 hours (we won’t assume it’s possible not to be seen, assuming you’re willing to wait). Define the continuous random variable \\(X = [\\text{wait time for service as a fraction of 8 hours}]\\) . This means that \\(x=1\\) represents a full day’s wait, or 8 hours, \\(x=0.5\\) represents half a day wait or 4 hours. Additionally, the valid values of \\(X\\) are between 0 and 1 (\\(0\\leq x \\leq 1\\)).\n2A. Probability Density Functions (PDFs). Compute the value of \\(\\alpha\\) that makes \\(f_X(x)\\) a valid probability density function:\n\\(f_X(x) = \\begin{cases}\n                \\alpha e^{-x}  & 0 \\leq x \\leq 1 \\\\\n                0           & \\text{else}\n            \\end{cases}\\)\n2B. Cumulative Distribution Functions (CDFs). Compute the cumulative distribution function (CDF) of \\(X\\), \\(F_X(x)\\), where \\(F_X(x)=P(X&lt;x)\\) (here, \\(P(\\cdot)\\) represents the probability of the event within the brackets). Be sure to indicate the value of the CDF for all values of \\(x\\in(-\\infty,\\infty)\\).\n2C. Expected Value. Compute the expected value of \\(X\\), \\(E_X[X]\\) Provide this value exactly (no approximations) and a numerical approximation to 3 decimal places. Also provide the approximate number of hours waiting (to 3 decimal places).\n2D. Variance. Compute the variance of \\(X\\), \\(Var(X)\\) exactly (no approximation) and a numerical approximation to 3 decimal places. Using the variance, calculate the standard deviation. Express this standard deviation in both the original units and units of hours.\n2E. Plotting your functions. Create plots of the PDF and CDF above as a subplot with one row and two columns.\n2F. Computational probability for synthetic data. Create a numerical simulation of this process. EXPLAIN HOW THIS CAN BE DONE USING RANDOM VARIABLES AND CDF USING A UNIFORM DISTRIBUTION AND THE INVERSE OF THE CDF\nOnce you have your function to create synthetic samples, use it to generate 10,000 samples from the distribution. Using those samples, compute the mean and standard deviation of the values. How do they compare to the values you previously calculated analytically?\n2G. Computing your simulated PDF and CDF. Repeat part E, but this time use your synthetic data only - do not assume a functional form for your data. Plot your empirical PDF and CDF. Plot these on the same axes as your original analytic functions and see how they compare.\n2H. Computing probabilities. Having a way of generating synthetic data can allow us to easily compute probabilities. Compute the probabiities of the following events using the synthetic data samples that you generated:\n\nWait time is less than 1 hour\nWait time is more than 6 hours\nWait time is between 3 and 5 hours\n\n2I. Computing empirical PDF and CDF. You’re given some sample data of actual wait times experienced over a 1-year period. Using these data, create an empirical PDF and CDF and plot those as compared to the original model PDF and CDF above from A and B above. What is the mean and standard deviation of these empirical distributions? Discuss how similar the distributions appear to be and comment on whether or not you would recommend using the model from A and B for these data.",
     "crumbs": [
       "Schedule",
-      "Resources",
-      "Assignment Instructions"
+      "Assignments",
+      "Assignment 1"
     ]
   },
   {
-    "objectID": "notebooks/assignment_instructions.html#assignment-grading",
-    "href": "notebooks/assignment_instructions.html#assignment-grading",
-    "title": "Assignment Instructions",
-    "section": "Assignment Grading",
-    "text": "Assignment Grading\nAssignment grading will consist of two components: content (90%) and presentation (10%). The content grade will be based on the accuracy and completeness (including the depth) of your answers to each question. If a question asks you to explain, hypothesize, or otherwise think critically, be sure to demonstrate your critical engagement with the question. The presentation score will be based on how well you communicate in writing, figure creation, and coding. Clear writing (with appropriate grammar and spelling), organized answers, well-organized/commented code, and properly formatted figures will ensure your success on the presentation component of the assignment.",
+    "objectID": "notebooks/Assignment_1.html#exercise-3---linear-algebra-operations-and-theory",
+    "href": "notebooks/Assignment_1.html#exercise-3---linear-algebra-operations-and-theory",
+    "title": "Assignment 1",
+    "section": "Exercise 3 - Linear Algebra Operations and Theory",
+    "text": "Exercise 3 - Linear Algebra Operations and Theory\n3A. Matrix manipulations and multiplication. Machine learning involves working with many matrices and understanding what their products represent, so this exercise will provide you with the opportunity to practice those skills.\nLet \\(\\mathbf{A} =  \\begin{bmatrix}\n1 & 2 \\\\\n3 & 4\n\\end{bmatrix}\\), \\(\\mathbf{b} =  \\begin{bmatrix}\n-1  \\\\\n1\n\\end{bmatrix}\\), \\(\\mathbf{c} =  \\begin{bmatrix}\n1  \\\\\n2\n\\end{bmatrix}\\)\nCompute the following by hand or indicate that it cannot be computed. Also note for each case whether the operation is an inner product, outer product, element-wise product, another type of operation. For any cases where an operation is invalid and cannot be computed, explain why it is invalid.\n\n\\(\\mathbf{A}\\mathbf{A}\\)\n\\(\\mathbf{A}\\mathbf{A}^{\\top}\\)\n\\(\\mathbf{A}\\mathbf{b}\\)\n\\(\\mathbf{A}\\mathbf{b}^{\\top}\\)\n\\(\\mathbf{b}\\mathbf{A}\\)\n\\(\\mathbf{b}^{\\top}\\mathbf{A}\\)\n\\(\\mathbf{b}\\mathbf{b}\\)\n\\(\\mathbf{b}^{\\top}\\mathbf{b}\\)\n\\(\\mathbf{b}\\mathbf{b}^{\\top}\\)\n\\(\\mathbf{A}\\circ\\mathbf{A}\\)\n\\(\\mathbf{b}\\circ\\mathbf{c}\\)\n\\(\\mathbf{b}^{\\top}\\mathbf{b}^{\\top}\\)\n\\(\\mathbf{b} + \\mathbf{c}^{\\top}\\)\n\\(\\mathbf{A}^{-1}\\mathbf{b}\\)\n\\(\\mathbf{b}^{{\\top}}\\mathbf{A}\\mathbf{b}\\)\n\\(\\mathbf{b}\\mathbf{A}\\mathbf{b}^{{\\top}}\\)\n\nNote: The element-wise (or Hadamard) product is the product of each element in one matrix with the corresponding element in another matrix, and is represented by the symbol “\\(\\circ\\)”.\n3B. Matrix manipulations and multiplication using Python. Repeat the above, but this time using Python. If you are using a vector, make sure the dimensions of the vector match what you’d expect, for example, matrix \\(\\mathbf{b}\\) is a \\([2 \\times 1]\\) vector. In NumPy, unless you’re specify, you’ll like create a one-dimensional array of length 2 rather than a \\([2 \\times 1]\\) vector if you don’t specify - be careful of this potential pitfall. Refer to NumPy’s tools for handling matrices. There may be circumstances when Python will produce an output, but based on the dimensions of the matrices involved, the linear algebra operation is not possible. Note these cases and explain why they occur. Please provide both the Python code AND the output of that code showing your result.\n3C. Vector Norms. Norms are the effective lengths of vectors. For example, the Euclidean norm, or \\(L_2\\) norm, is one of several common norms and is calculated for a vector \\[\\mathbf{x} =  \\begin{bmatrix} x_1 \\\\ x_2 \\\\ \\vdots \\\\ x_n \\end{bmatrix}\\] by \\[||\\mathbf{x}||_2 = \\sqrt{\\displaystyle \\sum_{k=1}^n x_k^2}\\]\nWhat is the \\(\\ell_2\\) norm of vectors \\(\\mathbf{b}\\) and \\(\\mathbf{c}\\) from part A?\n3D. Orthogonality and unit vectors. Find all vectors that are orthonormal to \\(\\mathbf{d} =  \\begin{bmatrix} 3 \\\\ -5 \\\\ 0 \\end{bmatrix}\\). Vector \\(\\mathbf{x}_1\\) is orthonormal to vector \\(\\mathbf{x}_2\\) if (a) \\(\\mathbf{x}_1\\) is orthogonal to vector \\(\\mathbf{x}_2\\) AND \\(\\mathbf{x}_1\\) is a unit vector. Orthogonal vectors are perpendicular, which implies that their inner product is zero. A unit vector is of length 1 (meaning its \\(L_2\\) norm is 1). We frequently encounter orthogonal and orthonormal vectors when dealing with dimensionality reduction, for example in Principal Components Analysis.\n3E. Eigenvectors and eigenvalues. Eigenvectors and eigenvalues are useful for some machine learning algorithms, but the concepts take time to solidly grasp. They are used extensively in machine learning including in Principal Components Analysis (PCA) and clustering algorithms. For an intuitive review of these concepts, explore this interactive website at Setosa.io. Also, the series of linear algebra videos by Grant Sanderson of 3Brown1Blue are excellent and can be viewed on youtube here. For these questions, numpy may once again be helpful.\n\nCalculate the eigenvalues and corresponding eigenvectors of matrix \\(\\mathbf{B}=  \\begin{bmatrix}\n1 & 2 & 3 \\\\\n2 & 4 & 5 \\\\\n3 & 5 & 6\n\\end{bmatrix}\\)\nChoose one of the eigenvector/eigenvalue pairs, \\(\\mathbf{v}\\) and \\(\\lambda\\), and show that \\(\\mathbf{B} \\mathbf{v} = \\lambda \\mathbf{v}\\). This relationship extends to higher orders: \\(\\mathbf{B} \\mathbf{B} \\mathbf{v} = \\lambda^2 \\mathbf{v}\\)\nShow that the eigenvectors are orthogonal to one another (e.g. their inner product is zero - just compute the inner product and show it is approximately 0). This is true for eigenvectors from real, symmetric matrices. In three dimensions or less, this means that the eigenvectors are perpendicular to each other. Typically we use the orthogonal basis of our standard x, y, and z, Cartesian coordinates, which allows us, if we combine them linearly, to represent any point in a 3D space. But any three orthogonal vectors can do the same. This property is used, for example, in PCA to identify the dimensions of greatest variation.",
     "crumbs": [
       "Schedule",
-      "Resources",
-      "Assignment Instructions"
+      "Assignments",
+      "Assignment 1"
     ]
   },
   {
-    "objectID": "notebooks/assignment_instructions.html#example-question-and-response",
-    "href": "notebooks/assignment_instructions.html#example-question-and-response",
-    "title": "Assignment Instructions",
-    "section": "Example Question and Response",
-    "text": "Example Question and Response\nBelow is an example question to demonstrate how to answer a question using a Jupyter notebook.\nCalculate the (a) first and (b) second derivative of \\(f(t) = t^3\\). lastly, (c) numerically evaluate the second derivative for \\(t=3\\). If \\(t\\) represents time (seconds) and \\(f\\) represents distance of a ball over time (in meters), then (d) what does the second derivative at \\(t=3\\) mean?\nANSWER\nThe first and second derivatives are calculated as follows:\n(a) The first derivative is: \\[ \\frac{df}{dt} = 3t^2\\]\n(b) The second derivative is: \\[ \\frac{d^2f}{dt^2} = 6t\\]\n(c) We calculate the second derivative at time \\(t=3\\) as follows:\n\n# (c) Numerically evaluate the second derivative for f(x)\n\n# Initialize variables for the analysis\nt = 3\n\n# Compute the derivative\ndf2 = 6 * t\n\nprint('(c) The second derivative at t = 3 is {}'.format(df2))\n\n(c) The second derivative at t = 3 is 18\n\n\n(d) This derivative, which is the second derivative of distance with respect to time represents the acceleration of the ball in \\(m^2\\) per second. This shows how quickly the ball is increasing its speed over time.\n\nFigure Example:\nHere is an example of a well-prepared figure that checks all of the requirements for good figures. To demonstrate we’ll start by loading some data to plot (the example here is from the lecture on bias-variance tradeoff):\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport pickle\n\n# Load the data for plotting\ndatafilename = './plot_example_data/data.pkl'\ninfile = open(datafilename,'rb')\nloaded_data = pickle.load(infile)\ninfile.close()\n\n# Store the loaded data in convenient variable names\nkvalues = loaded_data['kvalues']\nerror_training = loaded_data['error_training']\nerror_testing = loaded_data['error_testing']\nerror_bayesclf = loaded_data['error_bayesclf']\n\n# Choose colors that will be distinguishable from one another\ncolor0 = '#121619' # Dark grey\ncolor1 = '#00B050' # Green\ncolor2 = '#7c7c7c' # Light grey\n\nThen, we create the plot:\n\n%config InlineBackend.figure_format = 'retina' # Make clear on high-res screens\n\n# Create the plot\nplt.figure(figsize=(7,5), dpi= 100) # Adjust the figure size and dots per inch \nplt.semilogx(kvalues,error_training,color=color0,label='Training (in-sample)')\nplt.semilogx(kvalues,error_testing,color=color1,label='Test (out-of-sample)')\nplt.semilogx(kvalues,error_bayesclf,'--',color=color2,label='Bayes (optimal)')\nplt.legend()\nplt.grid('on')\nplt.xlabel('k nearest neighbors') # Always use X and Y labels\nplt.ylabel('Binary Classification Error Rate')\nplt.axis([1,200,0,0.5]) # Ensure the axis is the right size for the plot data\nplt.tight_layout() # Use this to maximize the use of space in the figure\nplt.show()\n\n\n\n\n\n\n\n\nNote the clear x and y axis labels and legends - there are no acronyms or shorthands used, just the full description of what is being plotted. Also note how easy it is to compare the color of lines and identify the baseline (Bayes) comparison line. Make your plots easy to read and understand.",
+    "objectID": "notebooks/Assignment_1.html#exercise-4---numerical-programming-with-data",
+    "href": "notebooks/Assignment_1.html#exercise-4---numerical-programming-with-data",
+    "title": "Assignment 1",
+    "section": "Exercise 4 - Numerical Programming with Data",
+    "text": "Exercise 4 - Numerical Programming with Data\nLoading data and gathering insights from a real dataset. In data science, we often need to have a sense of the idiosyncrasies of the data, how they relate to the questions we are trying to answer, and to use that information to help us to determine what approach, such as machine learning, we may need to apply to achieve our goal. This exercise provides practice in exploring a dataset and answering question that might arise from applications related to the data.\nYour objective. For this dataset, your goal is to answer questions A-E about electricity generation in the United States.\nData. The data for this problem can be found in the data subfolder in the assignments folder on github. The filename is a1_egrid2016.xlsx. This dataset is the Environmental Protection Agency’s (EPA) Emissions & Generation Resource Integrated Database (eGRID) containing information about all power plants in the United States, the amount of generation they produce, what fuel they use, the location of the plant, and many more quantities. We’ll be using a subset of those data.\nThe fields we’ll be using include:\n\n\n\nfield\ndescription\n\n\n\n\nSEQPLT16\neGRID2016 Plant file sequence number (the index)\n\n\nPSTATABB\nPlant state abbreviation\n\n\nPNAME\nPlant name\n\n\nLAT\nPlant latitude\n\n\nLON\nPlant longitude\n\n\nPLPRMFL\nPlant primary fuel\n\n\nCAPFAC\nPlant capacity factor\n\n\nNAMEPCAP\nPlant nameplate capacity (Megawatts MW)\n\n\nPLNGENAN\nPlant annual net generation (Megawatt-hours MWh)\n\n\nPLCO2EQA\nPlant annual CO2 equivalent emissions (tons)\n\n\n\nFor more details on the data, you can refer to the eGrid technical documents. For example, you may want to review page 45 and the section “Plant Primary Fuel (PLPRMFL)”, which gives the full names of the fuel types including WND for wind, NG for natural gas, BIT for Bituminous coal, etc.\nThere also are a couple of “gotchas” to watch out for with this dataset: - The headers are on the second row and you’ll want to ignore the first row (they’re more detailed descriptions of the headers). - NaN values represent blanks in the data. These will appear regularly in real-world data, so getting experience working with these sorts of missing values will be important.\nQuestions to answer:\n4A. Which power plant generated the most energy in 2016 (measured in MWh)?\nWhich power plant produced the most CO2 emissions (measured in tons)?\nWhich power plant produced the most CO2 emissions (measured in tons)?\n4B. What is the name of the northern-most power plant in the United States?\n4C. What is the state where the northern-most power plant in the United States is located?\n4D. Plot a bar plot showing the amount of energy produced by each fuel type across all plants.\n4E. From the plot in (D), which fuel for generation produces the most energy (MWh) in the United States?\nWhich state has the largest number of hydroelectric plants? In this case, each power plant counts once so regardless of how large the power plant is, we want to determine which state has the most of them. Note the primary fuel for hydroelectric plants is listed as water in the documentation.\nWhich state(s) has generated the most energy (MWh) using coal? If there are more than one, list the state abbreviations in alphabetical order, separated with commas (but no spaces). You may also want to explore the documentation for the isin() method for pandas. Note: in the eGrid documentation, there are multiple types of coal listed; be sure to factor in each type of coal.",
     "crumbs": [
       "Schedule",
-      "Resources",
-      "Assignment Instructions"
+      "Assignments",
+      "Assignment 1"
     ]
   },
   {
-    "objectID": "notebooks/assignment_instructions.html#checklist-before-submitting-your-assignment",
-    "href": "notebooks/assignment_instructions.html#checklist-before-submitting-your-assignment",
-    "title": "Assignment Instructions",
-    "section": "Checklist before submitting your assignment",
-    "text": "Checklist before submitting your assignment\n\nAnswers are placed in the indicated place in the document. Each question is followed by one or more sections, each with an empty cell called “ANSWER”. Insert your answer for that question below the word “ANSWER”. You may use multiple cells for each answer that include both markdown and code. For full credit, submitted assignments should be easily navigable with answers for subquestions clearly indicated (e.g. using “(a)” to indicate a subquestion).\nAll cells have been run. Cells that have not been run will be treated as unanswered questions and assigned zero points.\nYour submission is a PDF document. See guidelines above\nYour content is legible prior to submission. Look over your PDF before you submit it. If we cannot read it, or parts are missing, we cannot grade it, and no credit will be given for anything we cannot read or is missing.\n\nCode is valid (able to run and producing the correct answer), neat, understandable, and well commented.\nMath is typeset using LateX equations.\nAll text that is not code should be formatted using markdown. Two references to help include: ref1 and ref2.\n\nDescriptive text provides adequate detail to answer questions. When questions as “why” or for you to describe findings, the expectation is that the response will be much more than one or two words.\nProper grammar and spelling are expected throughout\n\n\nFigure checklist\n\nAll plots should have axes labels and legible fonts (large enough to read).\nLegends are used when there are multiple series plotted on a single plot.\nFigures are crisp and clear - there are no blurry figures.\nMarkers on plots are properly sized (e.g. not be too big nor too small) and/or have the appropriate level of transparency to be able to clearly read the data without obscuring other data.\nIf there are multiple colors used on a plot, EVERY color can be distinguished from the rest.",
+    "objectID": "notebooks/Assignment_1.html#appendix-list-of-helpful-identities",
+    "href": "notebooks/Assignment_1.html#appendix-list-of-helpful-identities",
+    "title": "Assignment 1",
+    "section": "Appendix: List of helpful identities",
+    "text": "Appendix: List of helpful identities\nBelow is a list of potentially helpful identities and equations for reference.\n\n\n\n\n\n\n\nIdentities and equations\nDescription\n\n\n\n\n\\(E_X[X] = \\displaystyle \\int_{-\\infty}^{\\infty} x f_X(x) dx\\)\nExpected value of continuous random variable \\(X\\)\n\n\n\\(Var_X(X) = E_X[X^2]-E_X[X]^2\\)\nVariance of random variable \\(X\\)\n\n\n\\(\\displaystyle P( X \\vert Y)= \\frac{P(X \\cap Y)}{P(Y)}\\)\nConditional probability of event \\(X\\) given event \\(Y\\) has occurred\n\n\n\\(\\displaystyle P(Y \\vert X)= \\frac{P(X \\vert Y)P(Y)}{P(X)}\\)\nBayes’ Rule\n\n\n\\(\\displaystyle F_X(x) = \\int_{-\\infty}^{x} f_X(x) dx\\)\nCDF as a function of PDF\n\n\n\\(\\displaystyle f_X(x) = \\frac{dF_X(x)}{dx}\\)\nPDF as a function of CDF\n\n\n\\(P(X \\leq x) = F_X(x)\\)\nProbabilistic definition of the CDF\n\n\n\\(P(a &lt; X \\leq b) = F_X(b) - F_X(a)\\)\nProbability the \\(X\\) lies between \\(a\\) and \\(b\\)\n\n\n\\(P(A) + P(\\bar{A}) = 1\\)\nThe sum of the probability of an event and its complement is 1\n\n\n$P(Y) = P(Y X)P(X) + P(Y {X})P({X}) $\nLaw of Total Probability\n\n\n\\(\\displaystyle \\int e^{-x} dx = -e^{-x}\\)\nIndefinite integral\n\n\n\\(\\displaystyle \\int x e^{-x} dx = -e^{-x}(x+1)\\)\nIndefinite integral\n\n\n\\(\\displaystyle \\int x^2 e^{-x} dx = -e^{-x}(x^2+2x+2)\\)\nIndefinite integral\n\n\n\\(\\displaystyle \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}^{-1} = \\frac{1}{ad-cb} \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}\\)\n\\(2 \\times 2\\) matrix inversion formula",
     "crumbs": [
       "Schedule",
-      "Resources",
-      "Assignment Instructions"
-    ]
-  },
-  {
-    "objectID": "notebooks/assignment_instructions.html#sources",
-    "href": "notebooks/assignment_instructions.html#sources",
-    "title": "Assignment Instructions",
-    "section": "Sources",
-    "text": "Sources\nSome questions on the assignments are adapted from sources including:\n1. James et al., An Introduction to Statistical Learning\n2. Abu-Mostafa, Yaser, Learning from Data\n3. Weinberger, Kilian, Machine Learning CS4780, Cornell University",
-    "crumbs": [
-      "Schedule",
-      "Resources",
-      "Assignment Instructions"
+      "Assignments",
+      "Assignment 1"
     ]
   },
   {
@@ -153,6 +136,102 @@
       "Schedule",
       "Syllabus",
       "Course Logistics"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "An Introduction to Statistical Learning with Python, by James, Witten, Hastie, and Tibshirani\nUnderstanding Deep learning by Simon Prince\nIntroduction to Data Mining, by Tan, Steinbach, Karpatne, and Kumar\nPattern Recognition and Machine Learning, by Bishop\nDeep Learning, by Goodfellow, Bengio, and Courville\nReinforcement Learning: An Introduction: An Introduction, by Sutton and Barto",
+    "crumbs": [
+      "Schedule",
+      "Syllabus",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#introductory-books-for-machine-learning",
+    "href": "resources.html#introductory-books-for-machine-learning",
+    "title": "Resources",
+    "section": "",
+    "text": "An Introduction to Statistical Learning with Python, by James, Witten, Hastie, and Tibshirani\nUnderstanding Deep learning by Simon Prince\nIntroduction to Data Mining, by Tan, Steinbach, Karpatne, and Kumar\nPattern Recognition and Machine Learning, by Bishop\nDeep Learning, by Goodfellow, Bengio, and Courville\nReinforcement Learning: An Introduction: An Introduction, by Sutton and Barto",
+    "crumbs": [
+      "Schedule",
+      "Syllabus",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#math-for-machine-learning",
+    "href": "resources.html#math-for-machine-learning",
+    "title": "Resources",
+    "section": "Math for machine learning",
+    "text": "Math for machine learning\n\nMathematics for Machine Learning by Deisenroth, Faisal, and Ong\nDeep Learning; Part I: Applied Math and Machine Learning Basics by Goodfellow, Bengio, and Courville\nThe Matrix Calculus You Need For Deep Learning by Parr and Howard\nDive Into Deep Learning; Appendix: Mathematics for Deep Learning by Weness, Hu, et al.",
+    "crumbs": [
+      "Schedule",
+      "Syllabus",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "resources.html#python-programming",
+    "href": "resources.html#python-programming",
+    "title": "Resources",
+    "section": "Python Programming",
+    "text": "Python Programming\nThe following online courses on Coursera are a 5-part series on Python programming:\n\nPython Programming Fundamentals\nData Science with NumPy, Sets, and Dictionaries\nPandas for Data Science\nDesigning Larger Python Programs for Data Science\nData Visualization and Modeling in Python",
+    "crumbs": [
+      "Schedule",
+      "Syllabus",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "pedagogy.html",
+    "href": "pedagogy.html",
+    "title": "Pedagogy",
+    "section": "",
+    "text": "Tenet #1: Good learning is active learning\nEveryone who was good at something was once bad at it. Learning comes from practice. No amount of reading or video/lecture watching alone will help you to become good without actively engaging with the material through practice. That is why this entire course is focused on supporting you to actively apply machine learning techniques through the assignments, quizzes, and project.\n\n\nTenet #2: Desirable difficulty leads to meaningful learning\nLearning is most effective when there’s a degree of struggle with the material. “Requiring students to organize new information and to work harder in the initial learning period can lead to greater and deeper learning. Although this struggle, dubbed a desirable difficulty…may at first be frustrating to learner and teacher alike, ultimately it improves long-term retention” (Excerpt from A Concise Guide to Improving Student Learning: Six Evidence-Based Principles and How to Apply Them). Desirable difficulties help you build connections between concepts and learn representations of knowledge (meta-cognition) that, like an index of a book, will increase your ability to creatively connect concepts and think more deeply about the topic.\n\n\nTenet #3: Read, reflect, recall is a pattern for effective learning\nSpaced retrieval and reflection is a key to effective learning. When we learn something, if we don’t use it, the knowledge fades. However, if we return to the material, apply it, create with it, we’re increasing the probability of long-term learning. This is why you will interact with each concept typically 4 times: lectures, readings, quizzes, and assignments, and at least one more time for those concepts involved in the final project. An added benefit of the frequent reflection through quizzes is that it tests your knowledge regularly, helping us to avoid the illusion of knowledge (thinking we know something, when we actually do not).\nReference Brown, P.C., Roediger III, H.L. and McDaniel, M.A., 2014. Make it stick: The science of successful learning. Harvard University Press.\nPersellin, D.C. and Daniels, M.B., 2023. A concise guide to improving student learning: Six evidence-based principles and how to apply them. Taylor & Francis.",
+    "crumbs": [
+      "Schedule",
+      "Syllabus",
+      "Pedagogy"
+    ]
+  },
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Instructional Team",
+    "section": "",
+    "text": "Contact Us & Office Hours\n\n\n\nReach out to us through Ed Discussions for any questions. Office hours are also posted on Ed.\n\n\n\nInstructor\n\n\n\nKyle Bradbury (, )\n\n\nDr. Kyle Bradbury develops and applies machine learning techniques to better understand and manage energy and climate resources. His work focuses on how to advance machine learning methodologies and apply them to solve energy and climate system challenges through the development of open source, widely-applicable computational tools. His current research interests include developing scalable computer vision techniques for assessing energy resources, infrastructure, and access globally through the use of publicly available remote sensing data. Methodologically, he investigates how to overcome the challenge of distribution shift in computer vision through novel training paradigms that require less labeled data.\n\n\nTeaching Assistants\n\n\n\n\n\n\n\n\n\nPoojitha Balamurugan (, )\n\n\n\n\n\n\n\nAarya Desai (, )\n\n\n\n\n\n\n\nDhaval Potdar (, )\n\n\n\n\n\n\n\nRakeen Rouf (, )",
+    "crumbs": [
+      "Schedule",
+      "Syllabus",
+      "Instructional Team"
+    ]
+  },
+  {
+    "objectID": "index.html#course-summary",
+    "href": "index.html#course-summary",
+    "title": "Overview",
+    "section": "Course Summary",
+    "text": "Course Summary\nIn almost every field, there is a need to make predictions based on data to drive decisions. The goal of this course is to provide an introduction to machine learning that is approachable to diverse disciplines and empowers students to become proficient in the foundational concepts and tools. You will learn to (a) structure a machine learning problems and determine which algorithmic tools are appropriate, (b) evaluate the performance of your solution using field-appropriate metrics and practices, and (c) accurately interpret your model output and communicate your results to interdisciplinary audiences. This course is a fast-paced, applied introduction to machine learning that through extensive practice with foundational tools, helps you to develop your knowledge of foundational machine learning concepts, and provides practical experience with those tools to prepare you for practice or future study.",
+    "crumbs": [
+      "Schedule",
+      "Syllabus",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#detailed-description",
+    "href": "index.html#detailed-description",
+    "title": "Overview",
+    "section": "Detailed description",
+    "text": "Detailed description\nMachine learning is a collection of useful tools for understanding and making decisions based on data and past experience; it is not a hammer to be applied to every nail, but rather a precision tool to be used when needed. This course will begin with exploring the purpose of machine learning told through a discussion of the types of problems that machine learning can answer: describing, predicting, and strategizing based on data and the tools at our disposal to address these challenges: supervised learning including classification and regression; unsupervised learning including clustering and density estimation; and reinforcement learning. There will be a strong focus on how to formulate a machine learning problem. Central to that formulation will be developing an understanding of how to preprocess data for analysis (e.g. feature extraction/dimensionality reduction, training/validation data sampling), model selection, and performance evaluation with cross validation. The final topic of this course will be a brief overview of state-of-the-art machine learning techniques that are emerging in the field.\nThroughout this course, the focus will be on applying algorithms rather than diving deeply into theory. You will be asked to consider the practical issues of machine learning problem solving: challenges of applying machine learning code packages, striving for parsimony (simplicity of models) and interpretability, and ensuring model assumptions are valid for a given problem and dataset. This course will also stress the importance of team-based collaboration, the value of producing fully reproducible and validated results, and tools to help with both such as version control and code repositories.\nCommunicating your results. Data science solutions are only as impactful as the communicator who shares them: therefore communication of your findings will be a core component of this course. Demonstrating competency in data science means (a) exhibiting a working knowledge of technical concepts including programming, statistics, and mathematics and (b) being able to clearly communicate the problem you were trying to solve or question you were trying to answer, why it matters, and how well your analysis worked. You will have opportunities to practice these skills throughout this course in the context of interpreting and sharing the results of your analyses.",
+    "crumbs": [
+      "Schedule",
+      "Syllabus",
+      "Overview"
     ]
   },
   {
@@ -276,54 +355,6 @@
     ]
   },
   {
-    "objectID": "index.html#course-summary",
-    "href": "index.html#course-summary",
-    "title": "Overview",
-    "section": "Course Summary",
-    "text": "Course Summary\nIn almost every field, there is a need to make predictions based on data to drive decisions. The goal of this course is to provide an introduction to machine learning that is approachable to diverse disciplines and empowers students to become proficient in the foundational concepts and tools. You will learn to (a) structure a machine learning problems and determine which algorithmic tools are appropriate, (b) evaluate the performance of your solution using field-appropriate metrics and practices, and (c) accurately interpret your model output and communicate your results to interdisciplinary audiences. This course is a fast-paced, applied introduction to machine learning that through extensive practice with foundational tools, helps you to develop your knowledge of foundational machine learning concepts, and provides practical experience with those tools to prepare you for practice or future study.",
-    "crumbs": [
-      "Schedule",
-      "Syllabus",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "index.html#detailed-description",
-    "href": "index.html#detailed-description",
-    "title": "Overview",
-    "section": "Detailed description",
-    "text": "Detailed description\nMachine learning is a collection of useful tools for understanding and making decisions based on data and past experience; it is not a hammer to be applied to every nail, but rather a precision tool to be used when needed. This course will begin with exploring the purpose of machine learning told through a discussion of the types of problems that machine learning can answer: describing, predicting, and strategizing based on data and the tools at our disposal to address these challenges: supervised learning including classification and regression; unsupervised learning including clustering and density estimation; and reinforcement learning. There will be a strong focus on how to formulate a machine learning problem. Central to that formulation will be developing an understanding of how to preprocess data for analysis (e.g. feature extraction/dimensionality reduction, training/validation data sampling), model selection, and performance evaluation with cross validation. The final topic of this course will be a brief overview of state-of-the-art machine learning techniques that are emerging in the field.\nThroughout this course, the focus will be on applying algorithms rather than diving deeply into theory. You will be asked to consider the practical issues of machine learning problem solving: challenges of applying machine learning code packages, striving for parsimony (simplicity of models) and interpretability, and ensuring model assumptions are valid for a given problem and dataset. This course will also stress the importance of team-based collaboration, the value of producing fully reproducible and validated results, and tools to help with both such as version control and code repositories.\nCommunicating your results. Data science solutions are only as impactful as the communicator who shares them: therefore communication of your findings will be a core component of this course. Demonstrating competency in data science means (a) exhibiting a working knowledge of technical concepts including programming, statistics, and mathematics and (b) being able to clearly communicate the problem you were trying to solve or question you were trying to answer, why it matters, and how well your analysis worked. You will have opportunities to practice these skills throughout this course in the context of interpreting and sharing the results of your analyses.",
-    "crumbs": [
-      "Schedule",
-      "Syllabus",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "contacts.html",
-    "href": "contacts.html",
-    "title": "Instructional Team",
-    "section": "",
-    "text": "Contact Us & Office Hours\n\n\n\nReach out to us through Ed Discussions for any questions. Office hours are also posted on Ed.\n\n\n\nInstructor\n\n\n\nKyle Bradbury (, )\n\n\nDr. Kyle Bradbury develops and applies machine learning techniques to better understand and manage energy and climate resources. His work focuses on how to advance machine learning methodologies and apply them to solve energy and climate system challenges through the development of open source, widely-applicable computational tools. His current research interests include developing scalable computer vision techniques for assessing energy resources, infrastructure, and access globally through the use of publicly available remote sensing data. Methodologically, he investigates how to overcome the challenge of distribution shift in computer vision through novel training paradigms that require less labeled data.\n\n\nTeaching Assistants\n\n\n\n\n\n\n\n\n\nPoojitha Balamurugan (, )\n\n\n\n\n\n\n\nAarya Desai (, )\n\n\n\n\n\n\n\nDhaval Potdar (, )\n\n\n\n\n\n\n\nRakeen Rouf (, )",
-    "crumbs": [
-      "Schedule",
-      "Syllabus",
-      "Instructional Team"
-    ]
-  },
-  {
-    "objectID": "pedagogy.html",
-    "href": "pedagogy.html",
-    "title": "Pedagogy",
-    "section": "",
-    "text": "Tenet #1: Good learning is active learning\nEveryone who was good at something was once bad at it. Learning comes from practice. No amount of reading or video/lecture watching alone will help you to become good without actively engaging with the material through practice. That is why this entire course is focused on supporting you to actively apply machine learning techniques through the assignments, quizzes, and project.\n\n\nTenet #2: Desirable difficulty leads to meaningful learning\nLearning is most effective when there’s a degree of struggle with the material. “Requiring students to organize new information and to work harder in the initial learning period can lead to greater and deeper learning. Although this struggle, dubbed a desirable difficulty…may at first be frustrating to learner and teacher alike, ultimately it improves long-term retention” (Excerpt from A Concise Guide to Improving Student Learning: Six Evidence-Based Principles and How to Apply Them). Desirable difficulties help you build connections between concepts and learn representations of knowledge (meta-cognition) that, like an index of a book, will increase your ability to creatively connect concepts and think more deeply about the topic.\n\n\nTenet #3: Read, reflect, recall is a pattern for effective learning\nSpaced retrieval and reflection is a key to effective learning. When we learn something, if we don’t use it, the knowledge fades. However, if we return to the material, apply it, create with it, we’re increasing the probability of long-term learning. This is why you will interact with each concept typically 4 times: lectures, readings, quizzes, and assignments, and at least one more time for those concepts involved in the final project. An added benefit of the frequent reflection through quizzes is that it tests your knowledge regularly, helping us to avoid the illusion of knowledge (thinking we know something, when we actually do not).\nReference Brown, P.C., Roediger III, H.L. and McDaniel, M.A., 2014. Make it stick: The science of successful learning. Harvard University Press.\nPersellin, D.C. and Daniels, M.B., 2023. A concise guide to improving student learning: Six evidence-based principles and how to apply them. Taylor & Francis.",
-    "crumbs": [
-      "Schedule",
-      "Syllabus",
-      "Pedagogy"
-    ]
-  },
-  {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
@@ -340,11 +371,119 @@
     "href": "tools.html",
     "title": "Software and Hardware Tools",
     "section": "",
-    "text": "Programming language: Python\nWe will use Python 3.x. The Anaconda distribution is recommended and comes with the most common packages. Python continues to be an one of the top programming languages and the rich packages in the language make it an excellent choice for machine learning. In particular the Python ecosystem of packages makes it a natural choice for ML including core numerical programming and plotting libraries like numpy, scipy, matplotlib, and pandas as well as excellent packages for machine learning algorithm development and statistical modeling including Scikit-Learn, Keras, and Pytorch.\n\n\nDevelopment environments: VS Code and Jupyter Notebooks\nJupyter lab or Jupyter notebook will be appropriate for most class assignments. We highly encourage you to use Visual Studio Code, in particular due to the debugging capabilities. There are many configurations that may work for you, but I would recommend begin by gathering ideas in Jupyter Notebooks. Once you have the basic structure of your code worked out, consider moving it to a .py file to make it easier and cleaner to run and build on.\n\n\nGraphics processing units (GPUs)\nGPUs are the workhorses of many modern machine learning algorithms, especially any that involve neural network-based architectures. There will be a small number of assignments that will require additional computation from that of GPUs. For these, we will use Google Colab, which is a free notebook environment that enables access to cloud resources including GPUs. For longer sessions before timeouts, greater RAM, and better GPUs you can optionally upgrade to Colab Pro.\nWe will also be making a limited number of cloud credits available to students later in the semester.",
+    "text": "We will use Python 3.x. The Anaconda distribution is recommended and comes with the most common packages. Python continues to be an one of the top programming languages and the rich packages in the language make it an excellent choice for machine learning. In particular the Python ecosystem of packages makes it a natural choice for ML including core numerical programming and plotting libraries like numpy, scipy, matplotlib, and pandas as well as excellent packages for machine learning algorithm development and statistical modeling including Scikit-Learn, Keras, and Pytorch.",
     "crumbs": [
       "Schedule",
       "Syllabus",
       "Software and Hardware Tools"
+    ]
+  },
+  {
+    "objectID": "tools.html#version-control-via-git",
+    "href": "tools.html#version-control-via-git",
+    "title": "Software and Hardware Tools",
+    "section": "Version Control via Git",
+    "text": "Version Control via Git\nGit is efficient for collaboration, and expectation in industry, and one of the best ways to share results in academia. You can even use some Git repositories (e.g. Github) as hosts for website, such as with the course website. As a data scientist with experience in machine learning, Git is expected. We will interact with Git repositories (a.k.a. repos) throughout this course, and your project will require the use of git repos for collaboration.\nComplete the Atlassian Git tutorial, specifically the following listed sections. Try each concept that’s presented. For this tutorial, instead of using BitBucket as your remote repository host, you may use your preferred platform such as Github or Duke’s Gitlab. 1. What is version control 2. What is Git 3. Install Git 4. Setting up a repository 5. Saving changes 6. Inspecting a repository 7. Undoing changes 8. Rewriting history 9. Syncing 10. Making a pull request 11. Using branches 12. Comparing workflows\nI also have created two videos on the topic to help you understand some of these concepts: Git basics and a step-by-step tutorial.\nAs an additional resource, Microsoft now offers a git tutorial on this topic as well.\nFor your answer, affirm that you either completed the tutorials above OR have previous experience with ALL of the concepts above. Confirm this by typing your name below and selecting the situation that applies from the two options in brackets.",
+    "crumbs": [
+      "Schedule",
+      "Syllabus",
+      "Software and Hardware Tools"
+    ]
+  },
+  {
+    "objectID": "notebooks/assignment_instructions.html",
+    "href": "notebooks/assignment_instructions.html",
+    "title": "Assignment Instructions",
+    "section": "",
+    "text": "Place your answer in the indicated place in the document. Each question is followed by one or more sections, each with an empty cell called “ANSWER”. Insert your answer for that question below the word “ANSWER”. You may use multiple cells for each answer that include both markdown and code.\nEnsure that all cells have been run. Cells that have not been run will be treated as unanswered questions and assigned zero points.\nCreate a PDF document of your notebook. There are a few ways to do this. Please see the guide below.\nCheck that your content is easily legible prior to submission. Look over your PDF before you submit it. If we cannot read it, or parts are missing, we cannot grade it, and no credit will be given for anything we cannot read.\nSubmit your pdf by the deadline on gradescope. Any assignments received after the deadline will be treated as late. Please see this video for how to submit your assignment on gradescope. The submission link is here: https://www.gradescope.com/\nAssign the respective pages to each question. When you submit your assignment on Gradescope, you will be asked to assign pages of your PDF to each question accordingly. Please remember, as stated in item 4, if we cannot find your answer, we cannot grade it.\n\nSee below for a checklist for your document before you submit.",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Assignment Instructions"
+    ]
+  },
+  {
+    "objectID": "notebooks/assignment_instructions.html#how-to-submit-assignments",
+    "href": "notebooks/assignment_instructions.html#how-to-submit-assignments",
+    "title": "Assignment Instructions",
+    "section": "",
+    "text": "Place your answer in the indicated place in the document. Each question is followed by one or more sections, each with an empty cell called “ANSWER”. Insert your answer for that question below the word “ANSWER”. You may use multiple cells for each answer that include both markdown and code.\nEnsure that all cells have been run. Cells that have not been run will be treated as unanswered questions and assigned zero points.\nCreate a PDF document of your notebook. There are a few ways to do this. Please see the guide below.\nCheck that your content is easily legible prior to submission. Look over your PDF before you submit it. If we cannot read it, or parts are missing, we cannot grade it, and no credit will be given for anything we cannot read.\nSubmit your pdf by the deadline on gradescope. Any assignments received after the deadline will be treated as late. Please see this video for how to submit your assignment on gradescope. The submission link is here: https://www.gradescope.com/\nAssign the respective pages to each question. When you submit your assignment on Gradescope, you will be asked to assign pages of your PDF to each question accordingly. Please remember, as stated in item 4, if we cannot find your answer, we cannot grade it.\n\nSee below for a checklist for your document before you submit.",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Assignment Instructions"
+    ]
+  },
+  {
+    "objectID": "notebooks/assignment_instructions.html#jupyter-notebooks",
+    "href": "notebooks/assignment_instructions.html#jupyter-notebooks",
+    "title": "Assignment Instructions",
+    "section": "Jupyter Notebooks",
+    "text": "Jupyter Notebooks\nIf you could use help getting started or a refresher on Jupyter notebooks, check out this video for more on basic Jupyter functionality. Using Jupyter notebooks allows you to practice applying machine learning concepts while building programming and writing skills, strengthening your ability to both create creative solutions to machine learning challenges while simultaneously enhancing your ability to communicate the meaning behind your findings and why others should give credence to your results.",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Assignment Instructions"
+    ]
+  },
+  {
+    "objectID": "notebooks/assignment_instructions.html#rendering-a-pdf-file",
+    "href": "notebooks/assignment_instructions.html#rendering-a-pdf-file",
+    "title": "Assignment Instructions",
+    "section": "Rendering a PDF file",
+    "text": "Rendering a PDF file\n\nOption 1: Render from VS Code (without additional extensions)\nWe recommend using VS Code for this course and for use in developing your Jupyter notebooks. Rendering pdfs from Jupyter Notebooks in VS Code has a couple of extra steps, though. To render a pdf without any additional extensions, you do the following:\n\nOpen your notebook in VS code and hit the ellipsis (the three horizontal dots) just to the right of the tools for your notebook:\n\n\n\nClick “Export”:\n\n\n\nSelect “HTML” (exporting to pdf won’t work without the installation of additional tools):\n\n\n\nOpen the HTML file you just saved in Chrome:\n\n\n\nClick the options button (three vertical dots) and click “print”:\n\n\n\nSelect the destination as “Save as PDF” and click “Save”:\n\n\n\nVoila! You should have a pdf\n\n\n\nOption 2: Render from VS Code with Quarto and LaTeX\nYou can save a lot of the above steps if you’re willing to install 2 things: 1. Install Quarto, which is an open-source scientific and technical publishing system (great for making websites and blogs for your professional portfolio). 2. Install the Quarto VS Code extension 3. Install a version of tex for your operating system. 4. Once you do this, you can directly export your documents to pdf:\n\n\n\nOption 3: Render from Jupyter Notebooks\nOpen your notebook in a Jupyter Notebook in Google Chrome. Go to File-&gt;Print Preview, then after verifying the document looks correct, click “print” and for your printer choose “Save as PDF.”\nWhichever method you choose - always check your pdf before submitting to make sure everything is rendered and nothing is cut off!",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Assignment Instructions"
+    ]
+  },
+  {
+    "objectID": "notebooks/assignment_instructions.html#assignment-grading",
+    "href": "notebooks/assignment_instructions.html#assignment-grading",
+    "title": "Assignment Instructions",
+    "section": "Assignment Grading",
+    "text": "Assignment Grading\nAssignment grading will consist of two components: content (90%) and presentation (10%). The content grade will be based on the accuracy and completeness (including the depth) of your answers to each question. If a question asks you to explain, hypothesize, or otherwise think critically, be sure to demonstrate your critical engagement with the question. The presentation score will be based on how well you communicate in writing, figure creation, and coding. Clear writing (with appropriate grammar and spelling), organized answers, well-organized/commented code, and properly formatted figures will ensure your success on the presentation component of the assignment.",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Assignment Instructions"
+    ]
+  },
+  {
+    "objectID": "notebooks/assignment_instructions.html#example-question-and-response",
+    "href": "notebooks/assignment_instructions.html#example-question-and-response",
+    "title": "Assignment Instructions",
+    "section": "Example Question and Response",
+    "text": "Example Question and Response\nBelow is an example question to demonstrate how to answer a question using a Jupyter notebook.\nCalculate the (a) first and (b) second derivative of \\(f(t) = t^3\\). lastly, (c) numerically evaluate the second derivative for \\(t=3\\). If \\(t\\) represents time (seconds) and \\(f\\) represents distance of a ball over time (in meters), then (d) what does the second derivative at \\(t=3\\) mean?\nANSWER\nThe first and second derivatives are calculated as follows:\n(a) The first derivative is: \\[ \\frac{df}{dt} = 3t^2\\]\n(b) The second derivative is: \\[ \\frac{d^2f}{dt^2} = 6t\\]\n(c) We calculate the second derivative at time \\(t=3\\) as follows:\n\n# (c) Numerically evaluate the second derivative for f(x)\n\n# Initialize variables for the analysis\nt = 3\n\n# Compute the derivative\ndf2 = 6 * t\n\nprint('(c) The second derivative at t = 3 is {}'.format(df2))\n\n(c) The second derivative at t = 3 is 18\n\n\n(d) This derivative, which is the second derivative of distance with respect to time represents the acceleration of the ball in \\(m^2\\) per second. This shows how quickly the ball is increasing its speed over time.\n\nFigure Example:\nHere is an example of a well-prepared figure that checks all of the requirements for good figures. To demonstrate we’ll start by loading some data to plot (the example here is from the lecture on bias-variance tradeoff):\n\nimport numpy as np\nimport matplotlib.pyplot as plt\nimport pickle\n\n# Load the data for plotting\ndatafilename = './plot_example_data/data.pkl'\ninfile = open(datafilename,'rb')\nloaded_data = pickle.load(infile)\ninfile.close()\n\n# Store the loaded data in convenient variable names\nkvalues = loaded_data['kvalues']\nerror_training = loaded_data['error_training']\nerror_testing = loaded_data['error_testing']\nerror_bayesclf = loaded_data['error_bayesclf']\n\n# Choose colors that will be distinguishable from one another\ncolor0 = '#121619' # Dark grey\ncolor1 = '#00B050' # Green\ncolor2 = '#7c7c7c' # Light grey\n\nThen, we create the plot:\n\n%config InlineBackend.figure_format = 'retina' # Make clear on high-res screens\n\n# Create the plot\nplt.figure(figsize=(7,5), dpi= 100) # Adjust the figure size and dots per inch \nplt.semilogx(kvalues,error_training,color=color0,label='Training (in-sample)')\nplt.semilogx(kvalues,error_testing,color=color1,label='Test (out-of-sample)')\nplt.semilogx(kvalues,error_bayesclf,'--',color=color2,label='Bayes (optimal)')\nplt.legend()\nplt.grid('on')\nplt.xlabel('k nearest neighbors') # Always use X and Y labels\nplt.ylabel('Binary Classification Error Rate')\nplt.axis([1,200,0,0.5]) # Ensure the axis is the right size for the plot data\nplt.tight_layout() # Use this to maximize the use of space in the figure\nplt.show()\n\n\n\n\n\n\n\n\nNote the clear x and y axis labels and legends - there are no acronyms or shorthands used, just the full description of what is being plotted. Also note how easy it is to compare the color of lines and identify the baseline (Bayes) comparison line. Make your plots easy to read and understand.",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Assignment Instructions"
+    ]
+  },
+  {
+    "objectID": "notebooks/assignment_instructions.html#checklist-before-submitting-your-assignment",
+    "href": "notebooks/assignment_instructions.html#checklist-before-submitting-your-assignment",
+    "title": "Assignment Instructions",
+    "section": "Checklist before submitting your assignment",
+    "text": "Checklist before submitting your assignment\n\nAnswers are placed in the indicated place in the document. Each question is followed by one or more sections, each with an empty cell called “ANSWER”. Insert your answer for that question below the word “ANSWER”. You may use multiple cells for each answer that include both markdown and code. For full credit, submitted assignments should be easily navigable with answers for subquestions clearly indicated (e.g. using “(a)” to indicate a subquestion).\nAll cells have been run. Cells that have not been run will be treated as unanswered questions and assigned zero points.\nYour submission is a PDF document. See guidelines above\nYour content is legible prior to submission. Look over your PDF before you submit it. If we cannot read it, or parts are missing, we cannot grade it, and no credit will be given for anything we cannot read or is missing.\n\nCode is valid (able to run and producing the correct answer), neat, understandable, and well commented.\nMath is typeset using LateX equations.\nAll text that is not code should be formatted using markdown. Two references to help include: ref1 and ref2.\n\nDescriptive text provides adequate detail to answer questions. When questions as “why” or for you to describe findings, the expectation is that the response will be much more than one or two words.\nProper grammar and spelling are expected throughout\n\n\nFigure checklist\n\nAll plots should have axes labels and legible fonts (large enough to read).\nLegends are used when there are multiple series plotted on a single plot.\nFigures are crisp and clear - there are no blurry figures.\nMarkers on plots are properly sized (e.g. not be too big nor too small) and/or have the appropriate level of transparency to be able to clearly read the data without obscuring other data.\nIf there are multiple colors used on a plot, EVERY color can be distinguished from the rest.",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Assignment Instructions"
+    ]
+  },
+  {
+    "objectID": "notebooks/assignment_instructions.html#sources",
+    "href": "notebooks/assignment_instructions.html#sources",
+    "title": "Assignment Instructions",
+    "section": "Sources",
+    "text": "Sources\nSome questions on the assignments are adapted from sources including:\n1. James et al., An Introduction to Statistical Learning\n2. Abu-Mostafa, Yaser, Learning from Data\n3. Weinberger, Kilian, Machine Learning CS4780, Cornell University",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Assignment Instructions"
     ]
   }
 ]

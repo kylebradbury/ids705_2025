@@ -7,3 +7,6 @@ archive/*
 # /_extensions/
 # /_site/
 /.quarto/
+
+/solutions
+**/solution*.ipynb
