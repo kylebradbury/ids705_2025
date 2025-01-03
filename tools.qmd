@@ -6,18 +6,20 @@ toc-expand: 2
 number-sections: false
 ---
 
-### Programming language: Python
+## Programming language: Python
 We will use Python 3.x. The Anaconda distribution is recommended and comes with the most common packages. Python continues to be an one of the top programming languages and the rich packages in the language make it an excellent choice for machine learning. In particular the Python ecosystem of packages makes it a natural choice for ML including core numerical programming and plotting libraries like numpy, scipy, matplotlib, and pandas as well as excellent packages for machine learning algorithm development and statistical modeling including Scikit-Learn, Keras, and Pytorch.
 
-### Development environments: VS Code and Jupyter Notebooks
+## Development environments: VS Code and Jupyter Notebooks
 Jupyter lab or Jupyter notebook will be appropriate for most class assignments. We highly encourage you to use Visual Studio Code, in particular due to the debugging capabilities. There are many configurations that may work for you, but I would recommend begin by gathering ideas in Jupyter Notebooks. Once you have the basic structure of your code worked out, consider moving it to a .py file to make it easier and cleaner to run and build on.
 
-### Graphics processing units (GPUs)
-GPUs are the workhorses of many modern machine learning algorithms, especially any that involve neural network-based architectures. There will be a small number of assignments that will require additional computation from that of GPUs. For these, we will use Google Colab, which is a free notebook environment that enables access to cloud resources including GPUs. For longer sessions before timeouts, greater RAM, and better GPUs you can optionally upgrade to Colab Pro.
+If you could use help getting started or a refresher on Jupyter notebooks, [check out this video for more on basic Jupyter functionality](https://www.youtube.com/watch?v=IMdfXGHzz5g). Using Jupyter notebooks allows you to practice applying machine learning concepts while building programming and  writing skills, strengthening your ability to both create creative solutions to machine learning challenges while simultaneously enhancing your ability to **communicate** the meaning behind your findings and why others should give credence to your results. You're encouraged to use VS Code to interact with Jupyter Notebooks.
 
-We will also be making a limited number of cloud credits available to students later in the semester.
+## Graphics processing units (GPUs)
+GPUs are the workhorses of many modern machine learning algorithms, especially any that involve neural network-based architectures. There will be a small number of assignments that will require additional computation that would benefit from GPUs. For these there are several options:
 
-
+- [Duke Compute Cluster](https://oit-rc.pages.oit.duke.edu/rcsupportdocs/). This server provides on-demand access to GPUs for computation through a centralized Duke server. You have access to this resource for the semester. Further instructions on how to use this tool will be provided.
+- [Google Colab](https://colab.research.google.com/), which is a free notebook environment that enables access to cloud resources including GPUs. For longer sessions before timeouts, greater RAM, and better GPUs you can optionally upgrade to Colab Pro.
+- We will also be making a limited number of Azure cloud credits available to students later in the semester by request if neither of the above resources meets your needs.
 
 ## Version Control via Git
 

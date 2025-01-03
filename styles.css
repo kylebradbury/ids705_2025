@@ -5,6 +5,17 @@
     color: white;
   }
 
+  .table-primary {
+    background: rgb(218, 233, 250);
+    /* color: white; */
+  }
+
+  .table-warning {
+    background: rgb(247, 226, 214);
+    /* color: white; */
+  }
+
+
 /* Fix the table so that it is readable in smaller settings */
 @media 
 only screen and (max-width: 600px),

@@ -23,10 +23,9 @@ Dr. Kyle Bradbury develops and applies machine learning techniques to better und
 ::: {layout-nrow=1}
 ![Poojitha Balamurugan ([{{< fa envelope >}}](mailto: poojitha.balamurugan@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/poojithabalamurugan/))](img/balamurugan_poojitha.jpg){fig-align="left"}
 
-![Aarya Desai ([{{< fa envelope >}}](mailto: aarya.desai@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/dyang7/))](img/yang_dingkun.jpg){fig-align="left"}
+![Aarya Desai ([{{< fa envelope >}}](mailto: aarya.desai@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/aarya-desai-716615169/))](img/aarya_desai.jpg){fig-align="left"}
 
-![Dhaval Potdar ([{{< fa envelope >}}](mailto: dhaval.potdar@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/dhavalpotdar/))](img/potdar_dhaval.jpg.jpg){fig-align="left"}
+![Dhaval Potdar ([{{< fa envelope >}}](mailto: dhaval.potdar@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/dhavalpotdar/))](img/potdar_dhaval.jpg){fig-align="left"}
 
-![Rakeen Rouf ([{{< fa envelope >}}](mailto: rakeen.rouf@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/yuanjing-zhu/))](img/zhu_yuanjing.jpg){fig-align="left"}
-
+![Rakeen Rouf ([{{< fa envelope >}}](mailto: rakeen.rouf@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/rakeen-rouf/))](img/rakeen_rouf.jpg){fig-align="left"}
 :::

@@ -1,8 +1,9 @@
 project:
   type: website
   output-dir: docs
-  # resources: 
-  #   - "/assignments/**"
+  resources: 
+    - "/notebooks/data/**"
+    - "/shared/**"
   render:
     - "*.qmd"
     - "*.ipynb"
@@ -45,15 +46,16 @@ website:
           - schedule.qmd
           - contacts.qmd
           - pedagogy.qmd
+          - ai.qmd
           - tools.qmd
           - resources.qmd
           - project.qmd
       - section: "Assignments"
         contents:
-          - notebooks/Assignment_1.ipynb
+          - notebooks/assignment_instructions.ipynb
+          - notebooks/assignment1.ipynb
       - section: "Resources"
         contents:
-          - notebooks/assignment_instructions.ipynb
           - text: "File structure template"
             href: https://github.com/kylebradbury/ml-project-structure-demo
 format:

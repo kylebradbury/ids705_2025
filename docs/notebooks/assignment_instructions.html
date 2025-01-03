@@ -178,7 +178,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/assignment_instructions.html">Resources</a></li><li class="breadcrumb-item"><a href="../notebooks/assignment_instructions.html">Assignment Instructions</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/assignment_instructions.html">Assignments</a></li><li class="breadcrumb-item"><a href="../notebooks/assignment_instructions.html">Assignment Instructions</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -239,6 +239,12 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../ai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Effective Use of AI</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../tools.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Software and Hardware Tools</span></a>
   </div>
@@ -268,7 +274,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../notebooks/Assignment_1.html" class="sidebar-item-text sidebar-link">
+  <a href="../notebooks/assignment_instructions.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Assignment Instructions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notebooks/assignment1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Assignment 1</span></a>
   </div>
 </li>
@@ -283,12 +295,6 @@ window.Quarto = {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../notebooks/assignment_instructions.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Assignment Instructions</span></a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="https://github.com/kylebradbury/ml-project-structure-demo" class="sidebar-item-text sidebar-link">
@@ -307,20 +313,16 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#how-to-submit-assignments" id="toc-how-to-submit-assignments" class="nav-link active" data-scroll-target="#how-to-submit-assignments">How to submit assignments</a></li>
-  <li><a href="#jupyter-notebooks" id="toc-jupyter-notebooks" class="nav-link" data-scroll-target="#jupyter-notebooks">Jupyter Notebooks</a></li>
+  <li><a href="#assignment-grading" id="toc-assignment-grading" class="nav-link active" data-scroll-target="#assignment-grading">Assignment Grading</a></li>
+  <li><a href="#how-to-submit-assignments" id="toc-how-to-submit-assignments" class="nav-link" data-scroll-target="#how-to-submit-assignments">How to submit assignments</a></li>
+  <li><a href="#example-question-and-template" id="toc-example-question-and-template" class="nav-link" data-scroll-target="#example-question-and-template">Example Question and Template</a></li>
   <li><a href="#rendering-a-pdf-file" id="toc-rendering-a-pdf-file" class="nav-link" data-scroll-target="#rendering-a-pdf-file">Rendering a PDF file</a>
   <ul class="collapse">
   <li><a href="#option-1-render-from-vs-code-without-additional-extensions" id="toc-option-1-render-from-vs-code-without-additional-extensions" class="nav-link" data-scroll-target="#option-1-render-from-vs-code-without-additional-extensions">Option 1: Render from VS Code (without additional extensions)</a></li>
   <li><a href="#option-2-render-from-vs-code-with-quarto-and-latex" id="toc-option-2-render-from-vs-code-with-quarto-and-latex" class="nav-link" data-scroll-target="#option-2-render-from-vs-code-with-quarto-and-latex">Option 2: Render from VS Code with Quarto and LaTeX</a></li>
   <li><a href="#option-3-render-from-jupyter-notebooks" id="toc-option-3-render-from-jupyter-notebooks" class="nav-link" data-scroll-target="#option-3-render-from-jupyter-notebooks">Option 3: Render from Jupyter Notebooks</a></li>
   </ul></li>
-  <li><a href="#assignment-grading" id="toc-assignment-grading" class="nav-link" data-scroll-target="#assignment-grading">Assignment Grading</a></li>
-  <li><a href="#example-question-and-response" id="toc-example-question-and-response" class="nav-link" data-scroll-target="#example-question-and-response">Example Question and Response</a>
-  <ul class="collapse">
-  <li><a href="#figure-example" id="toc-figure-example" class="nav-link" data-scroll-target="#figure-example">Figure Example:</a></li>
-  </ul></li>
-  <li><a href="#checklist-before-submitting-your-assignment" id="toc-checklist-before-submitting-your-assignment" class="nav-link" data-scroll-target="#checklist-before-submitting-your-assignment">Checklist before submitting your assignment</a>
+  <li><a href="#figure-guidelines" id="toc-figure-guidelines" class="nav-link" data-scroll-target="#figure-guidelines">Figure Guidelines</a>
   <ul class="collapse">
   <li><a href="#figure-checklist" id="toc-figure-checklist" class="nav-link" data-scroll-target="#figure-checklist">Figure checklist</a></li>
   </ul></li>
@@ -331,7 +333,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/assignment_instructions.html">Resources</a></li><li class="breadcrumb-item"><a href="../notebooks/assignment_instructions.html">Assignment Instructions</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../notebooks/assignment_instructions.html">Assignments</a></li><li class="breadcrumb-item"><a href="../notebooks/assignment_instructions.html">Assignment Instructions</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Assignment Instructions</h1>
 <p class="subtitle lead">IDS:705 Principles of Machine Learning</p>
@@ -351,21 +353,35 @@ window.Quarto = {
 </header>
 
 
+<section id="assignment-grading" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-grading">Assignment Grading</h2>
+<p>Assignment grading will consist of two components: content (90%) and presentation (10%). The content grade will be based on the accuracy and completeness (including the depth) of your answers to each question. If a question asks you to explain, hypothesize, or otherwise think critically, be sure to demonstrate your critical engagement with the question. Presentation and collaboration are critical skills for success as a data scientist. To support you in refining those skills, we include the presentation component of the grade. The presentation score will be based on how well you communicate in writing, figure creation, and coding. Clear writing (with appropriate grammar and spelling), organized answers, well-organized/commented code, and properly formatted figures will ensure your success on the presentation component of the assignment.</p>
+</section>
 <section id="how-to-submit-assignments" class="level2">
 <h2 class="anchored" data-anchor-id="how-to-submit-assignments">How to submit assignments</h2>
+<p>Assignments will be submitted via Gradescope as a PDF and you will need to indicate the location of your work for each question and subquestion. Below is a step-by-step guide to submitting your assignments.</p>
 <ol type="1">
-<li><strong>Place your answer in the indicated place in the document</strong>. Each question is followed by one or more sections, each with an empty cell called “ANSWER”. Insert your answer for that question below the word “ANSWER”. You may use multiple cells for each answer that include both markdown and code.</li>
+<li><strong>Header</strong>. At the top of the document, include the assignment number, your name, your netid, and a list of anyone you collaborated with on the assignment.</li>
+<li><strong>Each answer is prefaced in bold by the question/subquestion number</strong>. Each question is followed by one or more sections typically labeled with section numbers (e.g.&nbsp;2.3). Make sure you have a cell with that section number prior to your response. You may use multiple cells for each answer that include both markdown and code. For full credit, submitted assignments should be easily navigable with answers for subsections clearly indicated.</li>
 <li><strong>Ensure that all cells have been run</strong>. Cells that have not been run will be treated as unanswered questions and assigned zero points.</li>
 <li><strong>Create a PDF document of your notebook</strong>. There are a few ways to do this. Please see the guide below.</li>
-<li><strong>Check that your content is easily legible prior to submission</strong>. Look over your PDF before you submit it. If we cannot read it, or parts are missing, we cannot grade it, and no credit will be given for anything we cannot read.</li>
-<li><strong>Submit your pdf by the deadline on gradescope</strong>. Any assignments received after the deadline will be treated as late. Please <a href="https://youtu.be/KMPoby5g_nE">see this video</a> for how to submit your assignment on gradescope. The submission link is here: <a href="https://www.gradescope.com/">https://www.gradescope.com/</a></li>
-<li><strong>Assign the respective pages to each question</strong>. When you submit your assignment on Gradescope, you will be asked to assign pages of your PDF to each question accordingly. Please remember, as stated in item 4, if we cannot find your answer, we cannot grade it.</li>
+<li><strong>Your content is legible prior to submission</strong>. Look over your PDF before you submit it. If we cannot read it, or parts are missing, we cannot grade it, and no credit will be given for anything we cannot read or is missing.
+<ul>
+<li>Code is valid (able to run and producing the correct answer), neat, understandable, and well commented.</li>
+<li>Math is either clearly written and inserted into the proper part of the document or typeset using <a href="https://tobi.oetiker.ch/lshort/lshort.pdf">LateX equations</a>.</li>
+<li>All text that is not code should be formatted using markdown. Two references to help include: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">ref1</a> and <a href="http://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html">ref2</a>.</li>
+</ul></li>
+<li><strong>Submit your assignment by the deadline on gradescope</strong>. Any assignments received after the deadline will be treated as late. Please <a href="https://www.youtube.com/watch?v=nksyA0s-Geo">see this video</a> for how to submit your assignment on gradescope. The submission link is here: <a href="https://www.gradescope.com/">https://www.gradescope.com/</a></li>
+<li><strong>Assign the respective pages to each question</strong>. When you submit your assignment on Gradescope, you will be asked to assign pages of your PDF to each question accordingly. Be sure to leave time to complete this before submission. Please remember, if we cannot find your answer, we cannot grade it.</li>
 </ol>
-<p>See below for a checklist for your document before you submit.</p>
 </section>
-<section id="jupyter-notebooks" class="level2">
-<h2 class="anchored" data-anchor-id="jupyter-notebooks">Jupyter Notebooks</h2>
-<p>If you could use help getting started or a refresher on Jupyter notebooks, <a href="https://www.youtube.com/watch?v=IMdfXGHzz5g">check out this video for more on basic Jupyter functionality</a>. Using Jupyter notebooks allows you to practice applying machine learning concepts while building programming and writing skills, strengthening your ability to both create creative solutions to machine learning challenges while simultaneously enhancing your ability to <strong>communicate</strong> the meaning behind your findings and why others should give credence to your results.</p>
+<section id="example-question-and-template" class="level2">
+<h2 class="anchored" data-anchor-id="example-question-and-template">Example Question and Template</h2>
+<p>To demonstrate how to organize your responses using a Jupyter notebook please review the following:</p>
+<ul>
+<li><a href="../shared/assignment0.html">Sample assignment questions</a></li>
+<li><a href="../shared/assignment_template.html">Sample assignment template and example for submission</a></li>
+</ul>
 </section>
 <section id="rendering-a-pdf-file" class="level2">
 <h2 class="anchored" data-anchor-id="rendering-a-pdf-file">Rendering a PDF file</h2>
@@ -411,110 +427,76 @@ window.Quarto = {
 <p><strong>Whichever method you choose - always check your pdf before submitting to make sure everything is rendered and nothing is cut off!</strong></p>
 </section>
 </section>
-<section id="assignment-grading" class="level2">
-<h2 class="anchored" data-anchor-id="assignment-grading">Assignment Grading</h2>
-<p>Assignment grading will consist of two components: content (90%) and presentation (10%). The content grade will be based on the accuracy and completeness (including the depth) of your answers to each question. If a question asks you to explain, hypothesize, or otherwise think critically, be sure to demonstrate your critical engagement with the question. The presentation score will be based on how well you communicate in writing, figure creation, and coding. Clear writing (with appropriate grammar and spelling), organized answers, well-organized/commented code, and properly formatted figures will ensure your success on the presentation component of the assignment.</p>
-</section>
-<section id="example-question-and-response" class="level2">
-<h2 class="anchored" data-anchor-id="example-question-and-response">Example Question and Response</h2>
-<p>Below is an example question to demonstrate how to answer a question using a Jupyter notebook.</p>
-<p>Calculate the <strong>(a)</strong> first and <strong>(b)</strong> second derivative of <span class="math inline">\(f(t) = t^3\)</span>. lastly, <strong>(c)</strong> numerically evaluate the second derivative for <span class="math inline">\(t=3\)</span>. If <span class="math inline">\(t\)</span> represents time (seconds) and <span class="math inline">\(f\)</span> represents distance of a ball over time (in meters), then <strong>(d)</strong> what does the second derivative at <span class="math inline">\(t=3\)</span> mean?</p>
-<p><strong>ANSWER</strong></p>
-<p>The first and second derivatives are calculated as follows:</p>
-<p><strong>(a)</strong> The first derivative is: <span class="math display">\[ \frac{df}{dt} = 3t^2\]</span></p>
-<p><strong>(b)</strong> The second derivative is: <span class="math display">\[ \frac{d^2f}{dt^2} = 6t\]</span></p>
-<p><strong>(c)</strong> We calculate the second derivative at time <span class="math inline">\(t=3\)</span> as follows:</p>
-<div id="cell-9" class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># (c) Numerically evaluate the second derivative for f(x)</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Initialize variables for the analysis</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> <span class="dv">3</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Compute the derivative</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>df2 <span class="op">=</span> <span class="dv">6</span> <span class="op">*</span> t</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'(c) The second derivative at t = 3 is </span><span class="sc">{}</span><span class="st">'</span>.<span class="bu">format</span>(df2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>(c) The second derivative at t = 3 is 18</code></pre>
-</div>
-</div>
-<p><strong>(d)</strong> This derivative, which is the second derivative of distance with respect to time represents the acceleration of the ball in <span class="math inline">\(m^2\)</span> per second. This shows how quickly the ball is increasing its speed over time.</p>
-<section id="figure-example" class="level3">
-<h3 class="anchored" data-anchor-id="figure-example">Figure Example:</h3>
-<p>Here is an example of a well-prepared figure that checks all of the requirements for good figures. To demonstrate we’ll start by loading some data to plot (the example here is from the lecture on bias-variance tradeoff):</p>
-<div id="cell-13" class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pickle</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data for plotting</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>datafilename <span class="op">=</span> <span class="st">'./plot_example_data/data.pkl'</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>infile <span class="op">=</span> <span class="bu">open</span>(datafilename,<span class="st">'rb'</span>)</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>loaded_data <span class="op">=</span> pickle.load(infile)</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>infile.close()</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Store the loaded data in convenient variable names</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>kvalues <span class="op">=</span> loaded_data[<span class="st">'kvalues'</span>]</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>error_training <span class="op">=</span> loaded_data[<span class="st">'error_training'</span>]</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>error_testing <span class="op">=</span> loaded_data[<span class="st">'error_testing'</span>]</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>error_bayesclf <span class="op">=</span> loaded_data[<span class="st">'error_bayesclf'</span>]</span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Choose colors that will be distinguishable from one another</span></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>color0 <span class="op">=</span> <span class="st">'#121619'</span> <span class="co"># Dark grey</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>color1 <span class="op">=</span> <span class="st">'#00B050'</span> <span class="co"># Green</span></span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>color2 <span class="op">=</span> <span class="st">'#7c7c7c'</span> <span class="co"># Light grey</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="figure-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="figure-guidelines">Figure Guidelines</h2>
+<p>Here is an example of a well-prepared figure that checks all of the requirements for good figures. Please check out <a href="https://www.coursera.org/learn/python-data-modeling">this Coursera course</a> for skill development and Python plotting best practices.</p>
+<section id="figure-checklist" class="level3">
+<h3 class="anchored" data-anchor-id="figure-checklist">Figure checklist</h3>
+<ol type="1">
+<li>All plots should have a purpose - either being directly requested or should make a clear point.</li>
+<li><strong>All</strong> plots should have axes labels and legible fonts (large enough to read).</li>
+<li>Legends are used when there are multiple series plotted on a single plot.</li>
+<li>Markers on plots are properly sized (e.g.&nbsp;not be too big nor too small) and/or have the appropriate level of transparency to be able to clearly read the data without obscuring other data.</li>
+<li>If there are multiple colors used on a plot, EVERY color can be distinguished from the rest.</li>
+<li>Figures are crisp and clear - there are no blurry figures.</li>
+<li>Plots should be explained clearly in text or have a caption explaining them</li>
+</ol>
+<p>To demonstrate we’ll start by loading some data to plot (the example here is from the lecture on the bias-variance tradeoff):</p>
+<div id="cell-7" class="cell" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pickle</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the data for plotting</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>datafilename <span class="op">=</span> <span class="st">'./plot_example_data/data.pkl'</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>infile <span class="op">=</span> <span class="bu">open</span>(datafilename,<span class="st">'rb'</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>loaded_data <span class="op">=</span> pickle.load(infile)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>infile.close()</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Store the loaded data in convenient variable names</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>kvalues <span class="op">=</span> loaded_data[<span class="st">'kvalues'</span>]</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>error_training <span class="op">=</span> loaded_data[<span class="st">'error_training'</span>]</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>error_testing <span class="op">=</span> loaded_data[<span class="st">'error_testing'</span>]</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>error_bayesclf <span class="op">=</span> loaded_data[<span class="st">'error_bayesclf'</span>]</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Choose colors that will be distinguishable from one another</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>color0 <span class="op">=</span> <span class="st">'#121619'</span> <span class="co"># Dark grey</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>color1 <span class="op">=</span> <span class="st">'#00B050'</span> <span class="co"># Green</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>color2 <span class="op">=</span> <span class="st">'#7c7c7c'</span> <span class="co"># Light grey</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Then, we create the plot:</p>
-<div id="cell-15" class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>config InlineBackend.figure_format <span class="op">=</span> <span class="st">'retina'</span> <span class="co"># Make clear on high-res screens</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">7</span>,<span class="dv">5</span>), dpi<span class="op">=</span> <span class="dv">100</span>) <span class="co"># Adjust the figure size and dots per inch </span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>plt.semilogx(kvalues,error_training,color<span class="op">=</span>color0,label<span class="op">=</span><span class="st">'Training (in-sample)'</span>)</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>plt.semilogx(kvalues,error_testing,color<span class="op">=</span>color1,label<span class="op">=</span><span class="st">'Test (out-of-sample)'</span>)</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>plt.semilogx(kvalues,error_bayesclf,<span class="st">'--'</span>,color<span class="op">=</span>color2,label<span class="op">=</span><span class="st">'Bayes (optimal)'</span>)</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="st">'on'</span>)</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'k nearest neighbors'</span>) <span class="co"># Always use X and Y labels</span></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Binary Classification Error Rate'</span>)</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>plt.axis([<span class="dv">1</span>,<span class="dv">200</span>,<span class="dv">0</span>,<span class="fl">0.5</span>]) <span class="co"># Ensure the axis is the right size for the plot data</span></span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>plt.tight_layout() <span class="co"># Use this to maximize the use of space in the figure</span></span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="cell-9" class="cell" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>config InlineBackend.figure_format <span class="op">=</span> <span class="st">'retina'</span> <span class="co"># Make clear on high-res screens</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">7</span>,<span class="dv">5</span>), dpi<span class="op">=</span> <span class="dv">100</span>) <span class="co"># Adjust the figure size and dots per inch to make it legible and clear </span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>ax.semilogx(kvalues,error_training,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>            color<span class="op">=</span>color0,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>            label<span class="op">=</span><span class="st">'Training (in-sample)'</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>ax.semilogx(kvalues,error_testing,</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>            color<span class="op">=</span>color1,</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>            label<span class="op">=</span><span class="st">'Test (out-of-sample)'</span>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>ax.semilogx(kvalues,error_bayesclf,<span class="st">'--'</span>,</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>            color<span class="op">=</span>color2,</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>            label<span class="op">=</span><span class="st">'Bayes (optimal)'</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>ax.legend()</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="st">'on'</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">'k nearest neighbors'</span>) <span class="co"># Always use X and Y labels</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">'Binary Classification Error Rate'</span>)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>ax.set_xlim([<span class="dv">1</span>,<span class="dv">200</span>]) <span class="co"># Ensure the axis is the right size for the plot data</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>ax.set_ylim([<span class="dv">0</span>,<span class="fl">0.5</span>])</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>fig.tight_layout() <span class="co"># Use this to maximize the use of space in the figure</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="assignment_instructions_files/figure-html/cell-4-output-1.png" width="690" height="486" class="figure-img"></p>
+<p><img src="assignment_instructions_files/figure-html/cell-3-output-1.png" width="689" height="486" class="figure-img"></p>
 </figure>
 </div>
 </div>
 </div>
-<p>Note the clear x and y axis labels and legends - there are no acronyms or shorthands used, just the full description of what is being plotted. Also note how easy it is to compare the color of lines and identify the baseline (Bayes) comparison line. Make your plots easy to read and understand.</p>
-</section>
-</section>
-<section id="checklist-before-submitting-your-assignment" class="level2">
-<h2 class="anchored" data-anchor-id="checklist-before-submitting-your-assignment">Checklist before submitting your assignment</h2>
-<ol type="1">
-<li><strong>Answers are placed in the indicated place in the document</strong>. Each question is followed by one or more sections, each with an empty cell called “ANSWER”. Insert your answer for that question below the word “ANSWER”. You may use multiple cells for each answer that include both markdown and code. For full credit, submitted assignments should be easily navigable with answers for subquestions clearly indicated (e.g.&nbsp;using “(a)” to indicate a subquestion).</li>
-<li><strong>All cells have been run</strong>. Cells that have not been run will be treated as unanswered questions and assigned zero points.</li>
-<li><strong>Your submission is a PDF document</strong>. See guidelines above</li>
-<li><strong>Your content is legible prior to submission</strong>. Look over your PDF before you submit it. If we cannot read it, or parts are missing, we cannot grade it, and no credit will be given for anything we cannot read or is missing.
-<ul>
-<li>Code is valid (able to run and producing the correct answer), neat, understandable, and well commented.</li>
-<li>Math is typeset using <a href="https://tobi.oetiker.ch/lshort/lshort.pdf">LateX equations</a>.</li>
-<li>All text that is not code should be formatted using markdown. Two references to help include: <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">ref1</a> and <a href="http://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html">ref2</a>.</li>
-</ul></li>
-<li><strong>Descriptive text provides adequate detail to answer questions.</strong> When questions as “why” or for you to describe findings, the expectation is that the response will be much more than one or two words.</li>
-<li><strong>Proper grammar and spelling are expected throughout</strong></li>
-</ol>
-<section id="figure-checklist" class="level3">
-<h3 class="anchored" data-anchor-id="figure-checklist">Figure checklist</h3>
-<ol type="1">
-<li><strong>All</strong> plots should have axes labels and legible fonts (large enough to read).</li>
-<li>Legends are used when there are multiple series plotted on a single plot.</li>
-<li>Figures are crisp and clear - there are no blurry figures.</li>
-<li>Markers on plots are properly sized (e.g.&nbsp;not be too big nor too small) and/or have the appropriate level of transparency to be able to clearly read the data without obscuring other data.</li>
-<li>If there are multiple colors used on a plot, EVERY color can be distinguished from the rest.</li>
-</ol>
+<p><em>Figure 1. Ideally, each figure should have a caption that explains the figure. Here, the test data (green) approximates the generalization error rate, the lower-bound of which is the Bayes error rate (grey dotted line). The value of <span class="math inline">\(k\)</span> represents the flexibility of the model with lower values of <span class="math inline">\(k\)</span> representing higher model flexibility and higher values of <span class="math inline">\(k\)</span>, lower flexibility. The training error (black) is not considered out of sample, so in cases of high model flexiblity (and in this case high overfit), the training error rate can reach zero.</em></p>
+<p>Note the clear x and y axis labels and legends - there are no acronyms or shorthands used, just the full description of what is being plotted. Also note how easy it is to compare the color of lines and identify the baseline (Bayes) comparison line. Make your plots easy to read and understand. A figure caption is generally helpful as well to indicate what we are seeing in each plot.</p>
 </section>
 </section>
 <section id="sources" class="level2">
