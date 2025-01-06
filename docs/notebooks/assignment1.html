@@ -525,7 +525,13 @@ window.Quarto = {
 <p><strong>4.7.</strong> From the plot in (D), which fuel for generation produces the most energy (MWh) in the United States?</p>
 <p><strong>4.8.</strong> Which state has the largest number of hydroelectric plants? In this case, each power plant counts once so regardless of how large the power plant is, we want to determine which state has the most of them. Note the primary fuel for hydroelectric plants is listed as water in the documentation.</p>
 <p><strong>4.9.</strong> Which state(s) has generated the most energy (MWh) using coal? If there are more than one, list the state abbreviations in alphabetical order, separated with commas (but no spaces). You may also want to explore the documentation for the <code>isin()</code> method for pandas. Note: in the eGrid documentation, there are multiple types of coal listed; be sure to factor in each type of coal.</p>
-<p><strong>4.10.</strong> Which primary fuel produced the <em>most</em> CO2 emissions in the United States? We would like to compare natural gas, coal, oil, and renewables but the current categories are much more specific than that. As a first step, group the data as shown below, replacing the existing labels with the replacements suggested. For example, BIT and LIG should be replaced with COAL. - COAL = BIT, LIG, RC, SUB, WC - OIL = DFO, JF, KER, RFO, WO - GAS = BFG, COG, LFG, NG, OG, PG, PRG - RENEW = GEO, SUN, WAT, WDL, WDS, WND</p>
+<p><strong>4.10.</strong> Which primary fuel produced the <em>most</em> CO2 emissions in the United States? We would like to compare natural gas, coal, oil, and renewables but the current categories are much more specific than that. As a first step, group the data as shown below, replacing the existing labels with the replacements suggested. For example, BIT and LIG should be replaced with COAL.</p>
+<ul>
+<li>COAL = BIT, LIG, RC, SUB, WC</li>
+<li>OIL = DFO, JF, KER, RFO, WO</li>
+<li>GAS = BFG, COG, LFG, NG, OG, PG, PRG</li>
+<li>RENEW = GEO, SUN, WAT, WDL, WDS, WND</li>
+</ul>
 <p>You may want to create a function that does this replacement prior to running your code. You can check whether or not it was successful by verifying that each of the values that should be replaced has been replaced - check that before moving on with the question.</p>
 <p>You will want to use ‘PLCO2EQA’ to answer this question as it’s the quantity of emissions each plant generates.</p>
 <div style="page-break-after: always;"></div>
