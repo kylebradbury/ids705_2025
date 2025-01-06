@@ -112,7 +112,7 @@
     "text": "We will use Python 3.x. The Anaconda distribution is recommended and comes with the most common packages. Python continues to be an one of the top programming languages and the rich packages in the language make it an excellent choice for machine learning. In particular the Python ecosystem of packages makes it a natural choice for ML including core numerical programming and plotting libraries like numpy, scipy, matplotlib, and pandas as well as excellent packages for machine learning algorithm development and statistical modeling including Scikit-Learn, Keras, and Pytorch.",
     "crumbs": [
       "Schedule",
-      "Syllabus",
+      "Resources",
       "Software and Hardware Tools"
     ]
   },
@@ -124,7 +124,7 @@
     "text": "We will use Python 3.x. The Anaconda distribution is recommended and comes with the most common packages. Python continues to be an one of the top programming languages and the rich packages in the language make it an excellent choice for machine learning. In particular the Python ecosystem of packages makes it a natural choice for ML including core numerical programming and plotting libraries like numpy, scipy, matplotlib, and pandas as well as excellent packages for machine learning algorithm development and statistical modeling including Scikit-Learn, Keras, and Pytorch.",
     "crumbs": [
       "Schedule",
-      "Syllabus",
+      "Resources",
       "Software and Hardware Tools"
     ]
   },
@@ -136,7 +136,7 @@
     "text": "Development environments: VS Code and Jupyter Notebooks\nJupyter lab or Jupyter notebook will be appropriate for most class assignments. We highly encourage you to use Visual Studio Code, in particular due to the debugging capabilities. There are many configurations that may work for you, but I would recommend begin by gathering ideas in Jupyter Notebooks. Once you have the basic structure of your code worked out, consider moving it to a .py file to make it easier and cleaner to run and build on.\nIf you could use help getting started or a refresher on Jupyter notebooks, check out this video for more on basic Jupyter functionality. Using Jupyter notebooks allows you to practice applying machine learning concepts while building programming and writing skills, strengthening your ability to both create creative solutions to machine learning challenges while simultaneously enhancing your ability to communicate the meaning behind your findings and why others should give credence to your results. You’re encouraged to use VS Code to interact with Jupyter Notebooks.",
     "crumbs": [
       "Schedule",
-      "Syllabus",
+      "Resources",
       "Software and Hardware Tools"
     ]
   },
@@ -148,7 +148,7 @@
     "text": "Graphics processing units (GPUs)\nGPUs are the workhorses of many modern machine learning algorithms, especially any that involve neural network-based architectures. There will be a small number of assignments that will require additional computation that would benefit from GPUs. For these there are several options:\n\nDuke Compute Cluster. This server provides on-demand access to GPUs for computation through a centralized Duke server. You have access to this resource for the semester. Further instructions on how to use this tool will be provided.\nGoogle Colab, which is a free notebook environment that enables access to cloud resources including GPUs. For longer sessions before timeouts, greater RAM, and better GPUs you can optionally upgrade to Colab Pro.\nWe will also be making a limited number of Azure cloud credits available to students later in the semester by request if neither of the above resources meets your needs.",
     "crumbs": [
       "Schedule",
-      "Syllabus",
+      "Resources",
       "Software and Hardware Tools"
     ]
   },
@@ -160,7 +160,7 @@
     "text": "Version Control via Git\nGit is efficient for collaboration, and expectation in industry, and one of the best ways to share results in academia. You can even use some Git repositories (e.g. Github) as hosts for website, such as with the course website. As a data scientist with experience in machine learning, Git is expected. We will interact with Git repositories (a.k.a. repos) throughout this course, and your project will require the use of git repos for collaboration.\nComplete the Atlassian Git tutorial, specifically the following listed sections. Try each concept that’s presented. For this tutorial, instead of using BitBucket as your remote repository host, you may use your preferred platform such as Github or Duke’s Gitlab. 1. What is version control 2. What is Git 3. Install Git 4. Setting up a repository 5. Saving changes 6. Inspecting a repository 7. Undoing changes 8. Rewriting history 9. Syncing 10. Making a pull request 11. Using branches 12. Comparing workflows\nI also have created two videos on the topic to help you understand some of these concepts: Git basics and a step-by-step tutorial.\nAs an additional resource, Microsoft now offers a git tutorial on this topic as well.\nFor your answer, affirm that you either completed the tutorials above OR have previous experience with ALL of the concepts above. Confirm this by typing your name below and selecting the situation that applies from the two options in brackets.",
     "crumbs": [
       "Schedule",
-      "Syllabus",
+      "Resources",
       "Software and Hardware Tools"
     ]
   },
@@ -254,7 +254,6 @@
     "text": "Course Summary\nIn almost every field, there is a need to make predictions based on data to drive decisions. The goal of this course is to provide an introduction to machine learning that is approachable to diverse disciplines and empowers students to become proficient in the foundational concepts and tools. You will learn to (a) structure a machine learning problems and determine which algorithmic tools are appropriate, (b) evaluate the performance of your solution using field-appropriate metrics and practices, and (c) accurately interpret your model output and communicate your results to interdisciplinary audiences. This course is a fast-paced, applied introduction to machine learning that through extensive practice with foundational tools, helps you to develop your knowledge of foundational machine learning concepts, and provides practical experience with those tools to prepare you for practice or future study.",
     "crumbs": [
       "Schedule",
-      "Syllabus",
       "Overview"
     ]
   },
@@ -266,7 +265,6 @@
     "text": "Detailed description\nMachine learning is a collection of useful tools for understanding and making decisions based on data and past experience; it is not a hammer to be applied to every nail, but rather a precision tool to be used when needed. This course will begin with exploring the purpose of machine learning told through a discussion of the types of problems that machine learning can answer: describing, predicting, and strategizing based on data and the tools at our disposal to address these challenges: supervised learning including classification and regression; unsupervised learning including clustering and density estimation; and reinforcement learning. There will be a strong focus on how to formulate a machine learning problem. Central to that formulation will be developing an understanding of how to preprocess data for analysis (e.g. feature extraction/dimensionality reduction, training/validation data sampling), model selection, and performance evaluation with cross validation. The final topic of this course will be a brief overview of state-of-the-art machine learning techniques that are emerging in the field.\nThroughout this course, the focus will be on applying algorithms rather than diving deeply into theory. You will be asked to consider the practical issues of machine learning problem solving: challenges of applying machine learning code packages, striving for parsimony (simplicity of models) and interpretability, and ensuring model assumptions are valid for a given problem and dataset. This course will also stress the importance of team-based collaboration, the value of producing fully reproducible and validated results, and tools to help with both such as version control and code repositories.\nCommunicating your results. Data science solutions are only as impactful as the communicator who shares them: therefore communication of your findings will be a core component of this course. Demonstrating competency in data science means (a) exhibiting a working knowledge of technical concepts including programming, statistics, and mathematics and (b) being able to clearly communicate the problem you were trying to solve or question you were trying to answer, why it matters, and how well your analysis worked. You will have opportunities to practice these skills throughout this course in the context of interpreting and sharing the results of your analyses.",
     "crumbs": [
       "Schedule",
-      "Syllabus",
       "Overview"
     ]
   },
@@ -299,7 +297,7 @@
     "href": "ai.html#responsible-use-of-ai-tools",
     "title": "Effective Use of AI",
     "section": "Responsible use of AI tools",
-    "text": "Responsible use of AI tools\nWith those challenges outlined, there are several ways in which AI can be helpful:\n\nA learning aid. If you’re not familiar with a concept or need help understanding something and you don’t have easy access to another source of guidance, an AI tool (especially those that provide relevant citations) can be helpful for accelerating the learning process. Don’t let the AI tool do a task for your, but allow the tool to help you connect with the knowledge and resources you need to complete the task and develop new skills (always search for high-quality resources before relying on AI directly).\nA coding aid. For coding, consider AI to be a pair programmer who may have some suggestions to enhance your coding or may be able to provide some templates to work from. DO NOT directly copy and paste code from AI tools. You should fully understand and be capable of reproducing any code segment that you use - if not, you have not learned the material and that is considered plagiarism.\nA brainstorming aid. AI can help you to think through and generate ideas. However, always begin creating ideas on your own first, and use AI after you’ve done some critical thinking on your own to prevent your own creativity and problem solving skills from atrophying.\nA tool for detecting spelling and grammar issues (e.g., Grammarly)\n\nAs a rule, you should NEVER directly submit work that was created by AI. In this class, the use of AI tools is acceptable WITH CITATION. An appropriate citation would indicate the following information:\n\nWhat AI tool you used (e.g. ChatGPT)\nHow you used it, specifying prompts used (e.g. I checked my writeup for clarity with the prompt, “Review this text {} and improve its clarity”).\n\nAt the end of the day you are responsible for the correctness of anything you submit, you are responsible for having a complete understanding and the ability to reproduce from scratch anything that you submit.",
+    "text": "Responsible use of AI tools\nWith those challenges outlined, there are several ways in which AI can be helpful:\n\nA learning aid. If you’re not familiar with a concept or need help understanding something and you don’t have easy access to another source of guidance, an AI tool (especially those that provide relevant citations) can be helpful for accelerating the learning process. Don’t let the AI tool do a task for your, but allow the tool to help you connect with the knowledge and resources you need to complete the task and develop new skills (always search for high-quality resources before relying on AI directly).\nA coding aid. For coding, consider AI to be a pair programmer who may have some suggestions to enhance your coding or may be able to provide some templates to work from. DO NOT directly copy and paste code from AI tools. You should fully understand and be capable of reproducing any code segment that you use - if not, you have not learned the material and that is considered plagiarism.\nA brainstorming aid. AI can help you to think through and generate ideas. However, always begin creating ideas on your own first, and use AI after you’ve done some critical thinking on your own to prevent your own creativity and problem solving skills from atrophying.\nA tool for detecting spelling and grammar issues (e.g., Grammarly)\n\nYou should NEVER directly submit work that was created by AI. In this class, the use of AI tools is acceptable WITH CITATION. An appropriate citation would indicate the following information:\n\nWhat AI tool you used (e.g. ChatGPT)\nHow you used it\n\nAt the end of the day you are responsible for the correctness of anything you submit, you are responsible for having a complete understanding and the ability to reproduce from scratch anything that you submit.",
     "crumbs": [
       "Schedule",
       "Syllabus",
@@ -323,7 +321,7 @@
     "href": "pedagogy.html",
     "title": "Pedagogy",
     "section": "",
-    "text": "Tenet #1: Good learning is active learning\nEveryone who was good at something was once bad at it. Learning comes from practice. No amount of reading or video/lecture watching alone will help you to become good without actively engaging with the material through practice. That is why this entire course is focused on supporting you to actively apply machine learning techniques through the assignments, quizzes, and project.\n\n\nTenet #2: Desirable difficulty leads to meaningful learning\nLearning is most effective when there’s a degree of struggle with the material. “Requiring students to organize new information and to work harder in the initial learning period can lead to greater and deeper learning. Although this struggle, dubbed a desirable difficulty…may at first be frustrating to learner and teacher alike, ultimately it improves long-term retention” (Excerpt from A Concise Guide to Improving Student Learning: Six Evidence-Based Principles and How to Apply Them). Desirable difficulties help you build connections between concepts and learn representations of knowledge (meta-cognition) that, like an index of a book, will increase your ability to creatively connect concepts and think more deeply about the topic.\n\n\nTenet #3: Read, reflect, recall is a pattern for effective learning\nSpaced retrieval and reflection is a key to effective learning. When we learn something, if we don’t use it, the knowledge fades. However, if we return to the material, apply it, create with it, we’re increasing the probability of long-term learning. This is why you will interact with each concept typically 4 times: lectures, readings, quizzes, and assignments, and at least one more time for those concepts involved in the final project. An added benefit of the frequent reflection through quizzes is that it tests your knowledge regularly, helping us to avoid the illusion of knowledge (thinking we know something, when we actually do not).\nReference Brown, P.C., Roediger III, H.L. and McDaniel, M.A., 2014. Make it stick: The science of successful learning. Harvard University Press.\nPersellin, D.C. and Daniels, M.B., 2023. A concise guide to improving student learning: Six evidence-based principles and how to apply them. Taylor & Francis.",
+    "text": "Tenet #1: Good learning is active learning\nEveryone who was good at something was once bad at it. Learning comes from practice. No amount of reading or video/lecture watching alone will help you to become good without actively engaging with the material through practice. That is why this entire course is focused on supporting you to actively apply machine learning techniques through the assignments, quizzes, and project.\n\n\nTenet #2: Desirable difficulty leads to meaningful learning\nLearning is most effective when there’s a degree of struggle with the material. “Requiring students to organize new information and to work harder in the initial learning period can lead to greater and deeper learning. Although this struggle, dubbed a desirable difficulty…may at first be frustrating to learner and teacher alike, ultimately it improves long-term retention” (Excerpt from A Concise Guide to Improving Student Learning: Six Evidence-Based Principles and How to Apply Them). Desirable difficulties help you build connections between concepts and learn representations of knowledge (meta-cognition) that, like an index of a book, will increase your ability to creatively connect concepts and think more deeply about the topic.\n\n\nTenet #3: Read, reflect, recall is a pattern for effective learning\nSpaced retrieval and reflection is a key to effective learning. When we learn something, if we don’t use it, the knowledge fades. However, if we return to the material, apply it, create with it, we’re increasing the probability of long-term learning. This is why you will interact with each concept typically 4 times: lectures, readings, quizzes, and assignments, and at least one more time for those concepts involved in the final project. An added benefit of the frequent reflection through quizzes is that it tests your knowledge regularly, helping us to avoid the illusion of knowledge (thinking we know something, when we actually do not).\nReference\nBrown, P.C., Roediger III, H.L. and McDaniel, M.A., 2014. Make it stick: The science of successful learning. Harvard University Press.\nPersellin, D.C. and Daniels, M.B., 2023. A concise guide to improving student learning: Six evidence-based principles and how to apply them. Taylor & Francis.",
     "crumbs": [
       "Schedule",
       "Syllabus",
@@ -333,49 +331,49 @@
   {
     "objectID": "resources.html",
     "href": "resources.html",
-    "title": "Resources",
+    "title": "Resources for further learning",
     "section": "",
-    "text": "An Introduction to Statistical Learning with Python, by James, Witten, Hastie, and Tibshirani\nUnderstanding Deep learning by Simon Prince\nIntroduction to Data Mining, by Tan, Steinbach, Karpatne, and Kumar\nPattern Recognition and Machine Learning, by Bishop\nDeep Learning, by Goodfellow, Bengio, and Courville\nReinforcement Learning: An Introduction: An Introduction, by Sutton and Barto",
+    "text": "Each of these are used in one or more course reading assignment:\n\nAn Introduction to Statistical Learning with Python, by James, Witten, Hastie, and Tibshirani\nUnderstanding Deep learning by Simon Prince\nIntroduction to Data Mining, by Tan, Steinbach, Karpatne, and Kumar\nPattern Recognition and Machine Learning, by Bishop\nDeep Learning, by Goodfellow, Bengio, and Courville\nReinforcement Learning: An Introduction: An Introduction, by Sutton and Barto",
     "crumbs": [
       "Schedule",
-      "Syllabus",
-      "Resources"
+      "Resources",
+      "Resources for further learning"
     ]
   },
   {
     "objectID": "resources.html#introductory-books-for-machine-learning",
     "href": "resources.html#introductory-books-for-machine-learning",
-    "title": "Resources",
+    "title": "Resources for further learning",
     "section": "",
-    "text": "An Introduction to Statistical Learning with Python, by James, Witten, Hastie, and Tibshirani\nUnderstanding Deep learning by Simon Prince\nIntroduction to Data Mining, by Tan, Steinbach, Karpatne, and Kumar\nPattern Recognition and Machine Learning, by Bishop\nDeep Learning, by Goodfellow, Bengio, and Courville\nReinforcement Learning: An Introduction: An Introduction, by Sutton and Barto",
+    "text": "Each of these are used in one or more course reading assignment:\n\nAn Introduction to Statistical Learning with Python, by James, Witten, Hastie, and Tibshirani\nUnderstanding Deep learning by Simon Prince\nIntroduction to Data Mining, by Tan, Steinbach, Karpatne, and Kumar\nPattern Recognition and Machine Learning, by Bishop\nDeep Learning, by Goodfellow, Bengio, and Courville\nReinforcement Learning: An Introduction: An Introduction, by Sutton and Barto",
     "crumbs": [
       "Schedule",
-      "Syllabus",
-      "Resources"
+      "Resources",
+      "Resources for further learning"
     ]
   },
   {
     "objectID": "resources.html#math-for-machine-learning",
     "href": "resources.html#math-for-machine-learning",
-    "title": "Resources",
+    "title": "Resources for further learning",
     "section": "Math for machine learning",
     "text": "Math for machine learning\n\nMathematics for Machine Learning by Deisenroth, Faisal, and Ong\nDeep Learning; Part I: Applied Math and Machine Learning Basics by Goodfellow, Bengio, and Courville\nThe Matrix Calculus You Need For Deep Learning by Parr and Howard\nDive Into Deep Learning; Appendix: Mathematics for Deep Learning by Weness, Hu, et al.",
     "crumbs": [
       "Schedule",
-      "Syllabus",
-      "Resources"
+      "Resources",
+      "Resources for further learning"
     ]
   },
   {
     "objectID": "resources.html#python-programming",
     "href": "resources.html#python-programming",
-    "title": "Resources",
+    "title": "Resources for further learning",
     "section": "Python Programming",
     "text": "Python Programming\nThe following online courses on Coursera are a 5-part series on Python programming:\n\nPython Programming Fundamentals\nData Science with NumPy, Sets, and Dictionaries\nPandas for Data Science\nDesigning Larger Python Programs for Data Science\nData Visualization and Modeling in Python",
     "crumbs": [
       "Schedule",
-      "Syllabus",
-      "Resources"
+      "Resources",
+      "Resources for further learning"
     ]
   },
   {

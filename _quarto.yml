@@ -39,16 +39,14 @@ website:
     # style: "docked"
     search: true
     contents:
+      - index.qmd
       - section: "Syllabus"
         contents:
-          - index.qmd
-          - syllabus.qmd
           - schedule.qmd
+          - syllabus.qmd
           - contacts.qmd
           - pedagogy.qmd
           - ai.qmd
-          - tools.qmd
-          - resources.qmd
           # - project.qmd
       - section: "Assignments"
         contents:
@@ -56,6 +54,8 @@ website:
           - notebooks/assignment1.ipynb
       - section: "Resources"
         contents:
+          - tools.qmd
+          - resources.qmd
           - text: "File structure template"
             href: https://github.com/kylebradbury/ml-project-structure-demo
 format:

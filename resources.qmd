@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: Resources for further learning
 subtitle: IDS:705 Principles of Machine Learning
 toc: true
 toc-expand: 2
@@ -7,12 +7,15 @@ number-sections: false
 ---
 
 ## Introductory books for machine learning
-- [**An Introduction to Statistical Learning with Python**](https://www.statlearning.com/), by James, Witten, Hastie, and Tibshirani
-- [**Understanding Deep learning**](https://udlbook.github.io/udlbook/) by Simon Prince
+
+Each of these are used in one or more course reading assignment:
+
+- [An Introduction to Statistical Learning with Python](https://www.statlearning.com/), by James, Witten, Hastie, and Tibshirani
+- [Understanding Deep learning](https://udlbook.github.io/udlbook/) by Simon Prince
 - Introduction to Data Mining, by Tan, Steinbach, Karpatne, and Kumar
-- [**Pattern Recognition and Machine Learning**](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/), by Bishop
-- [**Deep Learning**](https://www.deeplearningbook.org/), by Goodfellow, Bengio, and Courville
-- [**Reinforcement Learning: An Introduction**](http://incompleteideas.net/book/the-book-2nd.html): An Introduction, by Sutton and Barto
+- [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/), by Bishop
+- [Deep Learning](https://www.deeplearningbook.org/), by Goodfellow, Bengio, and Courville
+- [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html): An Introduction, by Sutton and Barto
 
 ## Math for machine learning
 - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) by Deisenroth, Faisal, and Ong

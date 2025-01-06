@@ -24,9 +24,9 @@ With those challenges outlined, there are several ways in which AI can be helpfu
 - **A brainstorming aid**. AI can help you to think through and generate ideas. However, always begin creating ideas on your own first, and use AI after you've done some critical thinking on your own to prevent your own creativity and problem solving skills from atrophying.
 - A tool for detecting **spelling and grammar issues** (e.g., Grammarly)
 
-As a rule, you should NEVER directly submit work that was created by AI. In this class, the use of AI tools is acceptable WITH CITATION. An appropriate citation would indicate the following information:
+You should NEVER directly submit work that was created by AI. In this class, the use of AI tools is acceptable WITH CITATION. An appropriate citation would indicate the following information:
 
 1. What AI tool you used (e.g. ChatGPT)
-2. How you used it, specifying prompts used (e.g. I checked my writeup for clarity with the prompt, "Review this text {} and improve its clarity"). 
+2. How you used it 
 
 At the end of the day **you are responsible for the correctness of anything you submit, you are responsible for having a complete understanding and the ability to reproduce from scratch anything that you submit**.
