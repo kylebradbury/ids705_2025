@@ -315,7 +315,10 @@ window.Quarto = {
   <ul>
   <li><a href="#assignment-grading" id="toc-assignment-grading" class="nav-link active" data-scroll-target="#assignment-grading">Assignment Grading</a></li>
   <li><a href="#how-to-submit-assignments" id="toc-how-to-submit-assignments" class="nav-link" data-scroll-target="#how-to-submit-assignments">How to submit assignments</a></li>
-  <li><a href="#example-question-and-template" id="toc-example-question-and-template" class="nav-link" data-scroll-target="#example-question-and-template">Example Question and Template</a></li>
+  <li><a href="#example-question-and-template" id="toc-example-question-and-template" class="nav-link" data-scroll-target="#example-question-and-template">Example Question and Template</a>
+  <ul class="collapse">
+  <li><a href="#entering-mathematical-equations" id="toc-entering-mathematical-equations" class="nav-link" data-scroll-target="#entering-mathematical-equations">Entering mathematical equations</a></li>
+  </ul></li>
   <li><a href="#rendering-a-pdf-file" id="toc-rendering-a-pdf-file" class="nav-link" data-scroll-target="#rendering-a-pdf-file">Rendering a PDF file</a>
   <ul class="collapse">
   <li><a href="#option-1-render-from-vs-code-without-additional-extensions" id="toc-option-1-render-from-vs-code-without-additional-extensions" class="nav-link" data-scroll-target="#option-1-render-from-vs-code-without-additional-extensions">Option 1: Render from VS Code (without additional extensions)</a></li>
@@ -328,7 +331,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="assignment_instructions.out.ipynb" download="assignment_instructions.out.ipynb"><i class="bi bi-journal-code"></i>Jupyter</a></li><li><a href="assignment_instructions.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -382,6 +385,10 @@ window.Quarto = {
 <li><a href="../shared/assignment0.html">Sample assignment questions</a></li>
 <li><a href="../shared/assignment_template.html">Sample assignment template and example for submission</a></li>
 </ul>
+<section id="entering-mathematical-equations" class="level3">
+<h3 class="anchored" data-anchor-id="entering-mathematical-equations">Entering mathematical equations</h3>
+<p>You may either write out equations by hand or using markdown and <a href="https://tobi.oetiker.ch/lshort/lshort.pdf">LaTeX</a> (LaTeX is recommended). Either way, I recommend that you complete the work on paper before typing up the final version if you choose to use LaTeX. If you hand-write your math, please digitize them (scan them in or take a picture) and place them in the proper order for of the document for your final PDF. Either way, show your math including any intermediate steps necessary to understand the logic of your solution. If we are not able to interpret your meaning (or understand your writing), no credit will be given.</p>
+</section>
 </section>
 <section id="rendering-a-pdf-file" class="level2">
 <h2 class="anchored" data-anchor-id="rendering-a-pdf-file">Rendering a PDF file</h2>
@@ -442,7 +449,7 @@ window.Quarto = {
 <li>Plots should be explained clearly in text or have a caption explaining them</li>
 </ol>
 <p>To demonstrate we’ll start by loading some data to plot (the example here is from the lecture on the bias-variance tradeoff):</p>
-<div id="cell-7" class="cell" data-execution_count="8">
+<div id="cell-8" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pickle</span>
@@ -465,7 +472,7 @@ window.Quarto = {
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>color2 <span class="op">=</span> <span class="st">'#7c7c7c'</span> <span class="co"># Light grey</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Then, we create the plot:</p>
-<div id="cell-9" class="cell" data-execution_count="9">
+<div id="cell-10" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>config InlineBackend.figure_format <span class="op">=</span> <span class="st">'retina'</span> <span class="co"># Make clear on high-res screens</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the plot</span></span>

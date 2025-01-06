@@ -61,7 +61,7 @@
     "href": "notebooks/assignment_instructions.html#example-question-and-template",
     "title": "Assignment Instructions",
     "section": "Example Question and Template",
-    "text": "Example Question and Template\nTo demonstrate how to organize your responses using a Jupyter notebook please review the following:\n\nSample assignment questions\nSample assignment template and example for submission",
+    "text": "Example Question and Template\nTo demonstrate how to organize your responses using a Jupyter notebook please review the following:\n\nSample assignment questions\nSample assignment template and example for submission\n\n\nEntering mathematical equations\nYou may either write out equations by hand or using markdown and LaTeX (LaTeX is recommended). Either way, I recommend that you complete the work on paper before typing up the final version if you choose to use LaTeX. If you hand-write your math, please digitize them (scan them in or take a picture) and place them in the proper order for of the document for your final PDF. Either way, show your math including any intermediate steps necessary to understand the logic of your solution. If we are not able to interpret your meaning (or understand your writing), no credit will be given.",
     "crumbs": [
       "Schedule",
       "Assignments",
@@ -481,7 +481,7 @@
     "href": "notebooks/assignment1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "Instructions for all assignments can be found here. Note: this assignment falls under collaboration Mode 2: Individual Assignment – Collaboration Permitted. Please refer to the syllabus for additional information. Please be sure to list the names of any students that you worked with on this assignment. Total points in the assignment add up to 90; an additional 10 points are allocated to professionalism and presentation quality.\nNote: you may either write out equations by hand or using markdown and LaTeX (LaTeX is recommended). Either way, I recommend that you complete the work on paper before typing up the final version if you choose to use LaTeX. If you hand-write your math, please digitize them (scan them in or take a picture) and place them in the proper order for of the document for your final PDF. Either way, show your math including any intermediate steps necessary to understand the logic of your solution. If we are not able to interpret your meaning (or understand your writing), no credit will be given.",
+    "text": "Instructions for all assignments can be found here. Note: this assignment falls under collaboration Mode 2: Individual Assignment – Collaboration Permitted. Please refer to the syllabus for additional information. Please be sure to list the names of any students that you worked with on this assignment. Total points in the assignment add up to 90; an additional 10 points are allocated to professionalism and presentation quality.",
     "crumbs": [
       "Schedule",
       "Assignments",
@@ -493,7 +493,7 @@
     "href": "notebooks/assignment1.html#instructions",
     "title": "Assignment 1",
     "section": "",
-    "text": "Instructions for all assignments can be found here. Note: this assignment falls under collaboration Mode 2: Individual Assignment – Collaboration Permitted. Please refer to the syllabus for additional information. Please be sure to list the names of any students that you worked with on this assignment. Total points in the assignment add up to 90; an additional 10 points are allocated to professionalism and presentation quality.\nNote: you may either write out equations by hand or using markdown and LaTeX (LaTeX is recommended). Either way, I recommend that you complete the work on paper before typing up the final version if you choose to use LaTeX. If you hand-write your math, please digitize them (scan them in or take a picture) and place them in the proper order for of the document for your final PDF. Either way, show your math including any intermediate steps necessary to understand the logic of your solution. If we are not able to interpret your meaning (or understand your writing), no credit will be given.",
+    "text": "Instructions for all assignments can be found here. Note: this assignment falls under collaboration Mode 2: Individual Assignment – Collaboration Permitted. Please refer to the syllabus for additional information. Please be sure to list the names of any students that you worked with on this assignment. Total points in the assignment add up to 90; an additional 10 points are allocated to professionalism and presentation quality.",
     "crumbs": [
       "Schedule",
       "Assignments",
