@@ -6,21 +6,19 @@ toc-expand: 3
 number-sections: false
 ---
 
-## Basic Logistics
-
 ::: {.callout-note}
 ## Class Time and Location
 - **When**: Tuesday and Thursdays 10:05am - 11:20am
 - **Where**: Gross Hall 103
 :::
 
-### Class Tools and Resources
+## Class Tools and Resources
 - **Ed Discussions**: Announcements, Q&A on course content (assignments, quizzes, grades), ALL course communications
 - **Gradescope**: Quizzes, assignments, and project submission & feedback
 - **Schedule**: Schedule of class topics and deliverables
 - **Canvas**: Posted grades
 
-### Textbooks
+## Textbooks
 A version of each book is available free online:
 
 - [**An Introduction to Statistical Learning with Python**](https://www.statlearning.com/) by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, 2013.
@@ -29,10 +27,10 @@ A version of each book is available free online:
 - [**Deep Learning**](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio, and Aaron Courville, 2016.
 - [**Reinforcement Learning: An Introduction**](http://incompleteideas.net/book/the-book-2nd.html), by Richard Sutton and Andrew Barto, 2018.
 
-### Assignments & Grading
+## Assignments & Grading
 Assignments, projects, & quizzes: Assignments and projects details are posted on the course syllabus. For expectations and instructions on the assignments, see the assignment instructions. Quizzes are found on Gradescope and are due prior to the start of the lecture for which they're titled (i.e. the Lecture 3 Quiz is due by the start of Lecture 3).
 
-#### Grading:
+### Grading:
 - 60% Assignments (5, each worth 12%)
 - 25% Quizzes (~23, each worth ~1%)
 - 15% Final Project
@@ -45,6 +43,7 @@ This course moves quickly, so having a firm grasp on prerequisites is important.
 - Statistics: Introductory probability and statistics.
 
 ## Course Policies
+
 ### Academic dishonesty
 Adherence to the Duke Community Standard is expected. To uphold the Duke Community Standard:
 
@@ -70,7 +69,7 @@ Assignments and projects are due in class by the start of class on the date post
 
 - Course **projects deliverables** will not be accepted after the deadline. 
 - Late **assignment** submissions will result in a reduction of 5 points off the grade per day late. 
-- **Quizzes** will not be accepted after the deadline since the answers to the quizzes are made available after the class in which they're due. Quizzes are typically posted a week or more in advance, so you are encouraged to start early. Quizzes cannot be made up.
+- **Quizzes** will not be accepted after the deadline since the answers to the quizzes are discussed in and made available after the class in which they're due. Quizzes are typically posted a week or more in advance, so you are encouraged to start early (you can submit as early as you'd like). Quizzes cannot be made up, but there will be an opportunity later in the semester to make up a quiz to account for any off days.
 
 Please reach out to the TA's or instructor as early as possible to request any special accommodations.
 
