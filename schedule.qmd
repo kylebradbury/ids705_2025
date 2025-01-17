@@ -95,8 +95,8 @@ The schedule below is a guide to what we will be covering throughout the semeste
     </td>
     <td>ISL 2.2</td>
     <td>
-      [slides]
-      <!-- <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture03_bias_variance_tradeoff.pdf">[slides]</a> -->
+      <!-- [slides] -->
+      <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture03_bias_variance_tradeoff.pdf">[slides]</a>
     </td>
   </tr>
 
@@ -108,15 +108,15 @@ The schedule below is a guide to what we will be covering throughout the semeste
     <td></td>
   </tr>
 
-  <tr class="table-warning">
-    <td><b>Deliverable</b></td>
+  <tr class="table-warning">va
+    H:<td><b>Deliverable</b></td>
     <td class="date"> Wednesday <br> Jan 22</td>
     <td><b>Assignment #1 Due (at 9pm)</b><br> Probability, Linear Algebra, & Computational Programming</td>
     <td></td>
     <td>
       <a href="https://kylebradbury.github.io/ids705/notebooks/assignment1.html">[assignment]</a><br>
       [submit]
-      <!-- <a href="https://www.gradescope.com/">[submit]</a> -->
+      <a href="https://www.gradescope.com/">[submit]</a>
     </td>
   </tr>
 
