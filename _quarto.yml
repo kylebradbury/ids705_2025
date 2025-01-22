@@ -52,6 +52,7 @@ website:
         contents:
           - notebooks/assignment_instructions.ipynb
           - notebooks/assignment1.ipynb
+          - notebooks/assignment2.ipynb
       - section: "Resources"
         contents:
           - tools.qmd

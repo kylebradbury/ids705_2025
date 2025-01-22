@@ -243,6 +243,12 @@ window.Quarto = {
  <span class="menu-text">Assignment 1</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../notebooks/assignment2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Assignment 2</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -396,7 +402,7 @@ window.Quarto = {
 </div>
 <p><em>Figure 1. Demonstrating the process of transforming a uniformly distributed random variable into almost any distribution (here we transform into a normal). Here we show the transformation a sample, <span class="math inline">\(u^{\ast}\)</span>, from a uniform distribution to a sample, <span class="math inline">\(x^{\ast}\)</span> from a normal distribution by applying the inverse of the CDF of <span class="math inline">\(X\)</span> to <span class="math inline">\(u^{\ast}\)</span>, that is <span class="math inline">\(x^{\ast} = F_X^{-1}(u^{\ast})\)</span>.</em></p>
 <p>Calculate the inverse of the CDF, <span class="math inline">\(F_X^{-1}(y)\)</span> (We use the variable <span class="math inline">\(y\)</span> as the input into this function to denote that we’re inputting the “output” of the CDF into this inverse CDF).</p>
-<p><strong>2.10. Generate synthetic data using the inverse CDF by transforming uniform samples.</strong> Once you have your inverse CDF, code it up and use it to create synthetic samples from the last step. To do so, first generate 10,000 samples from the uniform distribution and then feed those uniform variates through the inverse CDF to generate synthetic variates from our wait time model. Using those samples, compute the mean and standard deviation. Present the mean and standard deviation in a table comparing (a) the empirical values computed from <code>wait_times.csv</code>, your theoretical model values calculated earlier, and your computed values calculated from your synthetic model. How do they compare?</p>
+<p><strong>2.10. Generate synthetic data using the inverse CDF by transforming uniform samples.</strong> Once you have your inverse CDF, code it up and use it to create synthetic samples from the last step. To do so, first generate 10,000 samples from the uniform distribution and then feed those uniform variates through the inverse CDF to generate synthetic variates from our wait time model. Using those samples, compute the mean and standard deviation. Present the mean and standard deviation in a table comparing (a) the empirical values computed from <code>wait_times.csv</code>, (b) your theoretical model values calculated earlier, and (c) your computed values calculated from your synthetic model. How do they compare?</p>
 <p><strong>2.11. Run a statistical test to evaluate the goodness of fit of your model to the empirical data from <code>wait_times.csv</code>.</strong> To evaluate the goodness of fit of the model to the data, one tool is the Kolmogorov–Smirnov test, or simply the KS test. The two-sample version of this test evaluates the maximum distance between two CDFs, each calculated from samples of data. In this case, the null hypothesis states that the samples are drawn from the same distribution. We can conclude that the sample data are well-represented by the reference distribution if we do NOT reject the null hypothesis. If we test at the 5% significant level, then we can conclude that data come from the same distribution if the p-value is greater than 0.05 (we fail to reject the null hypothesis).</p>
 <p>Compare the sample of data from <code>wait_times.csv</code> to the synthetic sample from the model distribution and run the KS test. Also compare the sample data to the uniform distributed data you generated before transforming it into the synthetic samples. For the test use <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.kstest.html"><code>scipy.stats.kstest</code></a>.</p>
 </section>
