@@ -17,7 +17,7 @@ If you could use help getting started or a refresher on Jupyter notebooks, [chec
 ## Graphics processing units (GPUs)
 GPUs are the workhorses of many modern machine learning algorithms, especially any that involve neural network-based architectures. There will be a small number of assignments that will require additional computation that would benefit from GPUs. For these there are several options:
 
-- [Duke Compute Cluster](https://oit-rc.pages.oit.duke.edu/rcsupportdocs/). This server provides on-demand access to GPUs for computation through a centralized Duke server. You have access to this resource for the semester. Further instructions on how to use this tool will be provided.
+- [Duke Compute Cluster](https://oit-rc.pages.oit.duke.edu/rcsupportdocs/). This server provides on-demand access to GPUs for computation through a centralized Duke server. You have access to this resource for the semester. [Further instructions are available here](resources/dcc-documentation.qmd).
 - [Google Colab](https://colab.research.google.com/), which is a free notebook environment that enables access to cloud resources including GPUs. For longer sessions before timeouts, greater RAM, and better GPUs you can optionally upgrade to Colab Pro.
 - We will also be making a limited number of Azure cloud credits available to students later in the semester by request if neither of the above resources meets your needs.
 

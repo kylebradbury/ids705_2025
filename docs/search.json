@@ -525,7 +525,7 @@
     "href": "tools.html#graphics-processing-units-gpus",
     "title": "Software and Hardware Tools",
     "section": "Graphics processing units (GPUs)",
-    "text": "Graphics processing units (GPUs)\nGPUs are the workhorses of many modern machine learning algorithms, especially any that involve neural network-based architectures. There will be a small number of assignments that will require additional computation that would benefit from GPUs. For these there are several options:\n\nDuke Compute Cluster. This server provides on-demand access to GPUs for computation through a centralized Duke server. You have access to this resource for the semester. Further instructions on how to use this tool will be provided.\nGoogle Colab, which is a free notebook environment that enables access to cloud resources including GPUs. For longer sessions before timeouts, greater RAM, and better GPUs you can optionally upgrade to Colab Pro.\nWe will also be making a limited number of Azure cloud credits available to students later in the semester by request if neither of the above resources meets your needs.",
+    "text": "Graphics processing units (GPUs)\nGPUs are the workhorses of many modern machine learning algorithms, especially any that involve neural network-based architectures. There will be a small number of assignments that will require additional computation that would benefit from GPUs. For these there are several options:\n\nDuke Compute Cluster. This server provides on-demand access to GPUs for computation through a centralized Duke server. You have access to this resource for the semester. Further instructions are available here.\nGoogle Colab, which is a free notebook environment that enables access to cloud resources including GPUs. For longer sessions before timeouts, greater RAM, and better GPUs you can optionally upgrade to Colab Pro.\nWe will also be making a limited number of Azure cloud credits available to students later in the semester by request if neither of the above resources meets your needs.",
     "crumbs": [
       "Schedule",
       "Resources",
@@ -684,5 +684,89 @@
     "title": "Assignment 0 - Sample Assignment",
     "section": "Exercise 2 - Plotting",
     "text": "Exercise 2 - Plotting\n2.1. Create a plot of the first derivative of \\(f(t)\\) for the values \\(-2 \\leq t \\leq 1\\).\n2.2. What does the first derivative of \\(f(t)\\) for \\(t=2\\) mean in this case?"
+  },
+  {
+    "objectID": "resources/dcc-documentation.html",
+    "href": "resources/dcc-documentation.html",
+    "title": "Duke Compute Cluster Guide",
+    "section": "",
+    "text": "This guide walks you through setting up and running Python and Jupyter Notebook on the DCC, managing environments, and submitting GPU jobs using Slurm (Simple Linux Utility for Resource Management).",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Duke Compute Cluster Guide"
+    ]
+  },
+  {
+    "objectID": "resources/dcc-documentation.html#one-time-setup-steps-first-time-only",
+    "href": "resources/dcc-documentation.html#one-time-setup-steps-first-time-only",
+    "title": "Duke Compute Cluster Guide",
+    "section": "1 One-Time Setup Steps (First Time Only!)",
+    "text": "1 One-Time Setup Steps (First Time Only!)\n\n1.1 Familiarize yourself with the available file systems on the DCC.\n\nOverview: Duke Compute Cluster\n\n\n\n1.2 SSH into the DCC.\nLog into the cluster using your NetID.\nCommand:\nssh {your_netID}@dcc-login.oit.duke.edu\n(Example)\n\n\n\n1.3 Create a symbolic link to the course25 directory.\nThe coursess25 directory has 1 Terabyte of shared storage space for the course. A symbolic link is a shortcut to another file system. When you first login, you will be in your home directory, create your shortcuts there.\nCommand:\nln -s /hpc/group/coursess25 ids_705_storage\n(Example)\n\n\n\n1.4 Download and Install Miniconda.\nExecute the following commands in your terminal and follow the instructions. Log out (close the terminal) and log back in upon successful installation, to being using Miniconda.\nCommands:\nwget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh\nsh Miniconda3-latest-Linux-x86_64.sh",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Duke Compute Cluster Guide"
+    ]
+  },
+  {
+    "objectID": "resources/dcc-documentation.html#managing-python-environments",
+    "href": "resources/dcc-documentation.html#managing-python-environments",
+    "title": "Duke Compute Cluster Guide",
+    "section": "2 Managing Python Environments",
+    "text": "2 Managing Python Environments\n\n2.1 Create a new environment.\nCommand:\nconda create -n {name_of_environment} python={Python.Version}\n(Example)\n\n\n\n2.2 View available Conda environments.\nCommand:\nconda env list\n(Example)\n\n\n\n2.3 Activate the environment.\nCommand:\nconda activate {name_of_environment}\n(Example)\n\n\n\n2.4 Install Jupyter kernel and test installation.\nCommands:\nconda install ipykernel\n(Example)\n\npython -m ipykernel install --user --name test\n(Example)",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Duke Compute Cluster Guide"
+    ]
+  },
+  {
+    "objectID": "resources/dcc-documentation.html#accessing-jupyter-lab-via-dcc-ondemand-portal",
+    "href": "resources/dcc-documentation.html#accessing-jupyter-lab-via-dcc-ondemand-portal",
+    "title": "Duke Compute Cluster Guide",
+    "section": "3 Accessing Jupyter Lab via DCC OnDemand Portal",
+    "text": "3 Accessing Jupyter Lab via DCC OnDemand Portal\n\n3.1 Login at DCC OnDemand.\n\n\n3.2 Click on Jupyter Lab.\n\n\n\n3.3 Configure session resources:\n\nPartition: courses-gpu (for GPU) or courses (no GPU).\n\nGPUs: 1 (if needed) or 0.\n\nCPUs: Up to 40.\n\nMemory: Up to 208 GB.\n\nAdditional Slurm Parameters:\n--gres=gpu:1\n\n\n\n\n3.4 Launch the session and wait for the status to change to “Running”.\n\n\n3.5 Click the Connect to Jupyter button to access the server.\n\n\n\n3.6 Start your notebook by selecting your preferred kernel.",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Duke Compute Cluster Guide"
+    ]
+  },
+  {
+    "objectID": "resources/dcc-documentation.html#gpu-demonstration-on-jupyter-lab",
+    "href": "resources/dcc-documentation.html#gpu-demonstration-on-jupyter-lab",
+    "title": "Duke Compute Cluster Guide",
+    "section": "4 GPU Demonstration on Jupyter Lab",
+    "text": "4 GPU Demonstration on Jupyter Lab\n\n4.1 Activate the previously created Conda environment.\nIn your terminal, activate the previously created “test” Conda environment. You can access a terminal in this session by clicking the blue plus button and selecting terminal in the now open launcher window (You can also use your ssh terminal).\nCommand:\nconda activate test\n\n\n\n4.2 Install required packages.\nCommands:\nconda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y\nconda install matplotlib\n\n\n\n\n4.3 Open and run the notebook:\nLocation: ids_705_storage/demo/gpu_demo.ipynb.\n\nImportant: Restart the kernel to ensure all installed packages are available.\n\n\n\nExpected Output: Ensure the first line of output says “Using GPU!!”.\n\n\n.\n.",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Duke Compute Cluster Guide"
+    ]
+  },
+  {
+    "objectID": "resources/dcc-documentation.html#gpu-demonstration-using-slurm-scheduler-preferred-method-to-run-longer-jobs",
+    "href": "resources/dcc-documentation.html#gpu-demonstration-using-slurm-scheduler-preferred-method-to-run-longer-jobs",
+    "title": "Duke Compute Cluster Guide",
+    "section": "5 GPU Demonstration Using Slurm Scheduler (Preferred method to run longer jobs)",
+    "text": "5 GPU Demonstration Using Slurm Scheduler (Preferred method to run longer jobs)\nSlurm (Simple Linux Utility for Resource Management) is a powerful workload manager and job scheduler designed for high-performance computing (HPC) clusters. It enables efficient resource allocation by managing compute nodes, CPUs, GPUs, memory, and job priorities across multiple users.\nIn this tutorial, we’ll focus on using Slurm to submit GPU jobs to Duke’s Compute Cluster (DCC). You’ll learn how to create and submit job scripts, specify resources like GPUs, CPUs, and memory.\n\n5.1 (Optional) If you want to run the demo yourself start by navigating to the demo directory.\nCommand:\ncd ids_705_storage/demo/data\n\n\n\n5.2 Create your Python script (demo script: ids_705_storage/demo/data/test.py).\n\n\n\n5.3 Create the Slurm file (demo file: ids_705_storage/demo/test_cuda.slurm).\n\n\n\n5.4 Submit your Slurm job.\nCommand:\nsbatch test_cuda.slurm\n\n\n\n5.5 Monitor job status.\nCommand:\nsqueue -u {your_id}\n\n\n\n5.6 Check job output (Wait for JobID to dissapear from above).\nCommand:\ncat test_cuda_{your_job_id}.out\n\nExpected Output:Ensure the first line of the output says “Using GPU”.\n\n\n.\n.",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Duke Compute Cluster Guide"
+    ]
+  },
+  {
+    "objectID": "resources/dcc-documentation.html#final-notes",
+    "href": "resources/dcc-documentation.html#final-notes",
+    "title": "Duke Compute Cluster Guide",
+    "section": "6 Final Notes",
+    "text": "6 Final Notes\n\nCreate a personal directory under: /hpc/group/coursess25/ids705 and name it after your NetID.\n\nBe mindful of shared resources and job submissions.\n\nQuestions? Contact: rakeen.rouf@duke.edu.\n\nVisit Duke Compute Cluster for more information.\n\nIf resources are busy, set GPUs to 0 and ensure your code works on CPU (see demo code for an example).",
+    "crumbs": [
+      "Schedule",
+      "Resources",
+      "Duke Compute Cluster Guide"
+    ]
   }
 ]
