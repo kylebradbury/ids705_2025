@@ -816,5 +816,17 @@
     "title": "Assignment 0 - Sample Assignment",
     "section": "Exercise 2 - Plotting",
     "text": "Exercise 2 - Plotting\n2.1. Create a plot of the first derivative of \\(f(t)\\) for the values \\(-2 \\leq t \\leq 1\\).\n2.2. What does the first derivative of \\(f(t)\\) for \\(t=2\\) mean in this case?"
+  },
+  {
+    "objectID": "notebooks/assignment3.html#learning-objectives",
+    "href": "notebooks/assignment3.html#learning-objectives",
+    "title": "Assignment 3",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nThis assignment will provide structured practice to help enable you to…\n\nUnderstand the primary workflow in machine learning: (1) identifying a hypothesis function set of models, (2) determining a loss/cost/error/objective function to minimize, and (3) minimizing that function through gradient descent\nUnderstand the inner workings of logistic regression and how linear models for classification can be developed.\nGain practice in implementing machine learning algorithms from the most basic building blocks to understand the math and programming behind them to achieve practical proficiency with the techniques\nImplement batch gradient descent and become familiar with how that technique is used and its dependence on the choice of learning rate\nEvaluate supervised learning algorithm performance through ROC curves and using cross validation\nApply regularization to linear models to improve model generalization performance",
+    "crumbs": [
+      "Schedule",
+      "Assignments",
+      "Assignment 3"
+    ]
   }
 ]
