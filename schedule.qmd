@@ -268,8 +268,8 @@ The schedule below is a guide to what we will be covering throughout the semeste
     <td><b>Assignment #3 Due (at 9pm)</b><br>Supervised learning model training and evaluation</td>
     <td></td>
     <td>
-      [assignment] <br>
-      <!-- <a href="https://github.com/kylebradbury/ids705/blob/main/assignments/Assignment_3.ipynb">[assignment]</a><br> -->
+      <!-- [assignment] <br> -->
+      <a href="https://kylebradbury.github.io/ids705/notebooks/assignment3.html">[assignment]</a><br>
       [submit]
       <!-- <a href="https://www.gradescope.com/">[submit]</a> -->
     </td>
