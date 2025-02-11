@@ -248,17 +248,17 @@ The schedule below is a guide to what we will be covering throughout the semeste
     </td>
   </tr>
 
-  <tr>
+    <tr>
     <td class="lecnum">Lecture 12</td>
     <td class="date">Tuesday <br> Feb 18</td>
     <td>
-      <b>Kernel Methods</b> <br>
-      Introducing Kernel machines via the kernel perceptron, maximum margin classifiers, and support vector machines
+      <b>Neural networks I</b> <br>
+      Introduction to neural networks and representation learning; forward propagation, network architecture, and how to adapt to regression or classification problems
     </td>
-    <td>ISL Ch 9: 9.1-9.4</td>
+    <td>UDL Ch 3: 3.1, 3.2; PRML Ch 5: 5.1 </td>
     <td>
       [slides]
-      <!-- <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture12_kernel_methods.pdf">[slides]</a> -->
+      <!-- <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture13_neural_networks_1.pdf">[slides]</a> -->
     </td>
   </tr>
 
@@ -279,20 +279,6 @@ The schedule below is a guide to what we will be covering throughout the semeste
     <td class="lecnum">Lecture 13</td>
     <td class="date">Thursday <br> Feb 20</td>
     <td>
-      <b>Neural networks I</b> <br>
-      Introduction to neural networks and representation learning; forward propagation, network architecture, and how to adapt to regression or classification problems
-    </td>
-    <td>UDL Ch 3: 3.1, 3.2; PRML Ch 5: 5.1 </td>
-    <td>
-      [slides]
-      <!-- <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture13_neural_networks_1.pdf">[slides]</a> -->
-    </td>
-  </tr>
-
-  <tr>
-    <td class="lecnum">Lecture 14</td>
-    <td class="date">Tuesday <br> Feb 25</td>
-    <td>
       <b>Neural networks II</b> <br>
       Fitting a neural network to training data through gradient descent and backpropagation; how backpropagation is used to compute gradients in neural networks; hyperparameters and architecture choices in neural networks and practices for training neural networks warningfully
     </td>
@@ -304,13 +290,27 @@ The schedule below is a guide to what we will be covering throughout the semeste
   </tr>
 
   <tr>
+    <td class="lecnum">Lecture 14</td>
+    <td class="date">Tuesday <br> Feb 25</td>
+    <td>
+      <b>Introduction to Deep learning I</b> <br>
+      Common architectures of deep learning models and the tools used to implement them
+    </td>
+    <td>UDL Ch 10: Convolutional Neural Networks</td>
+    <td>
+      [slides]
+      <!-- <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture15_deep_learning.pdf">[slides]</a> -->
+    </td>
+  </tr>
+
+  <tr>
     <td class="lecnum">Lecture 15</td>
     <td class="date">Thursday <br> Feb 27</td>
     <td>
-      <b>Introduction to Deep learning</b> <br>
-      Common architectures of deep learning models, in particular convolutional neural networks for computer vision and the tools used to implement them
+      <b>Introduction to Deep learning II</b> <br>
+      Common architectures of deep learning models and the tools used to implement them
     </td>
-    <td>DL Ch 11: Practical Methodology</td>
+    <td>DL Ch 11: Practical Methodology<br>UDL Ch 12.1-12.5: Transformers</td>
     <td>
       [slides]
       <!-- <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture15_deep_learning.pdf">[slides]</a> -->
