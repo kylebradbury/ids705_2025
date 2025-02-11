@@ -7,9 +7,10 @@ number-sections: false
 
 Required components of your project:
 - An application area that motivates the project
+- One or more datasets related to the project
 - A supervised learning problem. Your supervised techniques SHOULD NOT be deep learning
 - A baseline model for comparison (this should be motivated by the application)
-- A clearly stated experimental design (see topics below). Comparing a few models on a dataset is not sufficient for this project.
+- A clearly stated experimental design (see topics below). Comparing a few models on a single dataset is not sufficient for this project.
 - Active learning for cases where collecting data is expensive - how little additional data do you need to add to your model
 
 Options for topics to investigate:
@@ -18,6 +19,9 @@ Options for topics to investigate:
 - Model robustness when the application domain will likely be shifted from the training domain
 - When do ensembles actually help? Investigating model stacking and the conditions under which it is adventageous (performance / computation tradeoff)
 - Calibration in classification models - do the probabilities match?
+- Model sensitivity to training data when the training data are likely not perfectly sampled
+
+As part of these, you should be considering model hyperparameter optimization
 
 
 ## Summary and Goals
