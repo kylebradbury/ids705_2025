@@ -11,7 +11,8 @@ Required components of your project:
 - A supervised learning problem. Your supervised techniques SHOULD NOT be deep learning
 - A baseline model for comparison (this should be motivated by the application)
 - A clearly stated experimental design (see topics below). Comparing a few models on a single dataset is not sufficient for this project.
-- Active learning for cases where collecting data is expensive - how little additional data do you need to add to your model
+
+Ethical implications
 
 Options for topics to investigate:
 - Model explainability / interpretability
@@ -20,6 +21,7 @@ Options for topics to investigate:
 - When do ensembles actually help? Investigating model stacking and the conditions under which it is adventageous (performance / computation tradeoff)
 - Calibration in classification models - do the probabilities match?
 - Model sensitivity to training data when the training data are likely not perfectly sampled
+- Active learning for cases where collecting data is expensive - how little additional data do you need to add to your model
 
 As part of these, you should be considering model hyperparameter optimization
 
@@ -30,7 +32,7 @@ Machine learning tools are not an end in themselves, but yield value when making
 
 1. Project proposal
 2. Final written report and a draft report prior to final submission
-3. Presentation. During our final class meeting we will have a project showcase and competition.
+3. Presentation. During the class exam period, we will have a project showcase and competition.
 4. Github repository for your project
 5. Peer evaluation
 
@@ -42,7 +44,7 @@ Other topics described in this document related to the project include:
 
 ## Learning Objectives
 
-This project is an opportunity to identify and deeply explore a question or problem of your choosing, using machine learning tools. A central component of your project must be a machine learning methodology. It does not have to be one that we've explicitly discussed in class as you're welcome to use the project as an opportunity to learn new topics, although there should be a supervised learning component to your project. The objectives of this project are to...
+This is an opportunity to creatively deploy machine learning in an application area of interest to you. A central component of your project must be a machine learning methodology. It does not have to be one that we've explicitly discussed in class as you're welcome to use the project as an opportunity to learn new topics, although there should be a supervised learning component to your project. The objectives of this project are to...
 
 1. Develop deeper competency in applying machine learning methods in practical applications
 2. Gain experience in learning more about a topi beyond what was explicitly discussed, but by building on the foundation you have developed throughout the course which enables you to learn about other machine learning concepts
