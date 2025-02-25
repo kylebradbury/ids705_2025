@@ -368,19 +368,6 @@ The schedule below is a guide to what we will be covering throughout the semeste
     </td>
   </tr>
 
-  <tr class="table-warning">
-    <td><b>Deliverable</b></td>
-    <td class="date"> Friday <br> Mar 7 </td>
-    <td><b>Project Proposal Due (at 9pm)</b></td>
-    <td></td>
-    <td>
-      [project] <br>
-      [submit]
-      <!-- <a href="https://kylebradbury.github.io/ids705/project.html#proposal">[project]</a><br> -->
-      <!-- <a href="https://www.gradescope.com/">[submit]</a> -->
-    </td>
-  </tr>
-
   <tr class="table-primary">
     <td></td>
     <td class="date">Mar 8-16</td>
@@ -414,6 +401,19 @@ The schedule below is a guide to what we will be covering throughout the semeste
    <td>
      [slides]
       <!-- <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture19_clustering_2.pdf">[slides]</a> -->
+    </td>
+  </tr>
+
+  <tr class="table-warning">
+    <td><b>Deliverable</b></td>
+    <td class="date"> Friday <br> Mar 21 </td>
+    <td><b>Project Proposal Due (at 9pm)</b></td>
+    <td></td>
+    <td>
+      [project] <br>
+      [submit]
+      <!-- <a href="https://kylebradbury.github.io/ids705/project.html#proposal">[project]</a><br> -->
+      <!-- <a href="https://www.gradescope.com/">[submit]</a> -->
     </td>
   </tr>
 
