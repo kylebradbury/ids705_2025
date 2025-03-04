@@ -124,7 +124,7 @@ gtag('config', 'G-63SKKDGFHG', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Final Project</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./schedule.html">Syllabus</a></li><li class="breadcrumb-item"><a href="./project.html">Final Project</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -187,6 +187,12 @@ gtag('config', 'G-63SKKDGFHG', { 'anonymize_ip': true});
   <div class="sidebar-item-container"> 
   <a href="./ai.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Effective Use of AI</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./project.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Final Project</span></a>
   </div>
 </li>
       </ul>
@@ -295,7 +301,7 @@ gtag('config', 'G-63SKKDGFHG', { 'anonymize_ip': true});
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./schedule.html">Syllabus</a></li><li class="breadcrumb-item"><a href="./project.html">Final Project</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Final Project</h1>
 <p class="subtitle lead">IDS:705 Principles of Machine Learning</p>
@@ -315,16 +321,13 @@ gtag('config', 'G-63SKKDGFHG', { 'anonymize_ip': true});
 </header>
 
 
-<p>Required components of your project: - An application area that motivates the project - One or more datasets related to the project - A supervised learning problem. Your supervised techniques SHOULD NOT be deep learning - A baseline model for comparison (this should be motivated by the application) - A clearly stated experimental design (see topics below). Comparing a few models on a single dataset is not sufficient for this project.</p>
-<p>Ethical implications</p>
-<p>Options for topics to investigate: - Model explainability / interpretability - Model robustness to noise and/or adversarial attacks - Model robustness when the application domain will likely be shifted from the training domain - When do ensembles actually help? Investigating model stacking and the conditions under which it is adventageous (performance / computation tradeoff) - Calibration in classification models - do the probabilities match? - Model sensitivity to training data when the training data are likely not perfectly sampled - Active learning for cases where collecting data is expensive - how little additional data do you need to add to your model</p>
-<p>As part of these, you should be considering model hyperparameter optimization</p>
 <section id="summary-and-goals" class="level2">
 <h2 class="anchored" data-anchor-id="summary-and-goals">Summary and Goals</h2>
-<p>Machine learning tools are not an end in themselves, but yield value when making predictions, quantifying and describing phenomena in the world around us, and in all these ways and more helping us to make decisions that would otherwise be difficult or impossible. For this final project, you will work in teams to (1) identify a problem to solve or a question to answer, (2) apply machine learning techniques to conduct experiments to address the issues identified in (1), (3) rigorously evaluate the performance of your approach, and (4) clearly communicate your findings to a wide audience. The <strong>deliverables for this project</strong> are:</p>
+<p>It’s time for you to unleash your creativity in the final project for the course! This is your chance to apply everything you’ve learned so far, from experimental design and model selection to evaluation and optimization. This project gives you the freedom to explore new applications, experiment, and innovate. Creativity, critical thinking, and problem-solving will be key.</p>
+<p>Machine learning tools are not an end in themselves, but yield value when making predictions, quantifying and describing phenomena in the world around us, and in all these ways and more helping us to make decisions that would otherwise be difficult or impossible. For this final project, you will work in teams to (1) identify a problem to solve or a question to answer, (2) apply machine learning techniques to conduct experiments to investigate the application area, (3) rigorously evaluate the performance of your approach, and (4) clearly communicate your findings to a wide audience. The <strong>deliverables for this project</strong> are:</p>
 <ol type="1">
 <li>Project proposal</li>
-<li>Final written report and a draft report prior to final submission</li>
+<li>Final written report AND a draft report prior to final submission</li>
 <li>Presentation. During the class exam period, we will have a project showcase and competition.</li>
 <li>Github repository for your project</li>
 <li>Peer evaluation</li>
@@ -336,7 +339,7 @@ gtag('config', 'G-63SKKDGFHG', { 'anonymize_ip': true});
 <p>This is an opportunity to creatively deploy machine learning in an application area of interest to you. A central component of your project must be a machine learning methodology. It does not have to be one that we’ve explicitly discussed in class as you’re welcome to use the project as an opportunity to learn new topics, although there should be a supervised learning component to your project. The objectives of this project are to…</p>
 <ol type="1">
 <li>Develop deeper competency in applying machine learning methods in practical applications</li>
-<li>Gain experience in learning more about a topi beyond what was explicitly discussed, but by building on the foundation you have developed throughout the course which enables you to learn about other machine learning concepts</li>
+<li>Gain experience in learning more about a topic beyond what was explicitly discussed, but by building on the foundation you have developed throughout the course which enables you to learn about other machine learning concepts</li>
 <li>Increase your experience with collaborative data science workflows</li>
 <li>Expand your data science portfolio</li>
 </ol>
@@ -345,9 +348,22 @@ gtag('config', 'G-63SKKDGFHG', { 'anonymize_ip': true});
 <section id="requirements" class="level3">
 <h3 class="anchored" data-anchor-id="requirements">Requirements</h3>
 <ul>
-<li>The project must involve supervised machine learning. You may include concepts we were not able to cover in the course. You may include other concepts at well, but there should be a supervised learning component.</li>
-<li>The project must be able to be completed within the course of this semester and should be scoped correctly: we encourage you to be ambitious, but please visit office hours if you have questions about project scope.</li>
-<li>Every project should involve reading about both your <em>application domain</em> and the <em>methods that you’re using</em>. A project on genetics should involve learning about and understanding the concepts that you’re using. You’re expected to develop some domain knowledge related to your problem and demonstrate that in the report.</li>
+<li><p>The project must involve supervised machine learning. You may include concepts we were not able to cover in the course. You may include other concepts at well, but there should be a supervised learning component.</p></li>
+<li><p>The project must be able to be completed within the course of this semester and should be scoped correctly: we encourage you to be ambitious, but please visit office hours if you have questions about project scope.</p></li>
+<li><p>Every project should involve learning more about both your <em>application domain</em> and the <em>methods that you’re using</em>. This means reading about both facets. If you’re working on a project involving diagnosis of a disease, you should read enough to understand the disease and how it manifests the symptoms that your data may be noting. You’re expected to develop some domain knowledge related to your problem and demonstrate that in the report.</p></li>
+<li><p>At minimum, your project should have at least one experimental design or study per student on the team. Examples include (but are not limited to): Options for topics to investigate:</p>
+<ul>
+<li>Cross-domain comparison. What is the impact on generalization performance if we know that the conditions under which we will apply our ML approach are different than the available training data (e.g.&nbsp;if I’m working on a computer vision problem and all my training data are from the U.S., but the goal is to apply the model to regions in Asia)</li>
+<li>Model sensitivity to imbalanced data. What if training data when the training data are not perfectly sampled to be representative of the actual target data. This could be an investigation of the impact and possible solutions to imbalanced datasets.</li>
+<li>Active learning for cases where collecting data is expensive. How little additional data do you need to add to your model and how might it be identified how to sample the new data.</li>
+<li>Bias detection and mitigation - could the fairness of algorithms be analyzed across different subsets of the data.</li>
+<li>Model explainability / interpretability.</li>
+<li>Model robustness to noise and/or adversarial attacks</li>
+<li>Model robustness when the application domain will likely be shifted from the training domain</li>
+<li>When do ensembles actually help? Investigating model stacking and the conditions under which it is adventageous (performance / computation tradeoff)</li>
+<li>Calibration in classification models - do the confidence scores match the actual probabilities?</li>
+</ul></li>
+<li><p>Your project should consider the potential ethical implications of your work and describe how that was factored into your work.</p></li>
 </ul>
 </section>
 </section>
@@ -414,11 +430,11 @@ gtag('config', 'G-63SKKDGFHG', { 'anonymize_ip': true});
 </tr>
 <tr class="even">
 <td>Final Report</td>
-<td>20 points, graded</td>
+<td>10 points, graded</td>
 </tr>
 <tr class="odd">
 <td>Team Proposal</td>
-<td>Written feedback will be provided to help guide your project design.**</td>
+<td>Written or verbal feedback will be provided to help guide your project design.**</td>
 </tr>
 <tr class="even">
 <td>Draft Final Report</td>
@@ -434,19 +450,19 @@ gtag('config', 'G-63SKKDGFHG', { 'anonymize_ip': true});
 </tr>
 <tr class="odd">
 <td>Total</td>
-<td>25 points</td>
+<td>15 points</td>
 </tr>
 </tbody>
 </table>
-<p>** No points will be directly assigned. One point will be deducted from your overall final project score for each day late; up to 2 points may be deducted from the overall project score (out of 25 possible points) if the deliverable is unsatisfactory (if it does not represent a serious effort towards the deliverable)</p>
+<p>** No points will be directly assigned. One point will be deducted from your overall final project score for each day late; up to 2 points may be deducted from the overall project score (out of 15 possible points) if the deliverable is unsatisfactory (if it does not represent a serious effort towards the deliverable)</p>
 </section>
 <section id="ideas" class="level2">
 <h2 class="anchored" data-anchor-id="ideas">Ideas</h2>
 <ul>
-<li><strong>Reproduce the work of a published study and build on it</strong>. Reproducing the results of a journal article can be a great way to dive into advanced materials. The goal for a project like this would be to reproduce the study and build on it in some way: test a new hypothesis, adjust the methodology, try it on other data that may present new and interesting challenges. Reproducing papers can be hard, so you’ll want to choose wisely and make clear what your innovation will be. As a starting place, you can explore <a href="https://paperswithcode.com/">Papers with Code</a> which typically have papers where the code and the data are both shared, often making reproducing their work simpler. <strong>This is the recommended project type for teams in doubt</strong>.</li>
-<li><strong>Participate in an active machine learning competition</strong>. Online machine learning competitions are sponsored by organizations with a significantly high interest in a problem that they are investing prize money into finding a solution. Examples of competition platforms include <a href="https://www.kaggle.com/competitions">Kaggle</a>, <a href="https://www.drivendata.org/competitions/">Driven Data</a>, <a href="https://zindi.africa/competitions">Zindi</a>, <a href="https://www.aicrowd.com/">AICrowd</a>, etc. If you choose to participate in a competition, it must be an active competition where your team can compete; it cannot be a “sample” competition that is only for learning to use the platform (e.g.&nbsp;the Kaggle Titanic competition, etc.). You will want to learn about the application domain. <em>Note: these competitions often do the hard work of data preprocessing for you, so you are expected to generate a competitive submission - it doesn’t need to top the leaderboard, but you should be in the upper quartile of competitors.</em></li>
-<li><strong>Design your own project based on a question</strong>, e.g.&nbsp;how well buildings be detected in satellite imagery across diverse geographies? Satellite imagery is enabling us to create functional maps of the world based on the content in the images. Automating building identification could help map global population and analyze global population growth in real-time. However, different parts of the world look different: forests, deserts, plains, etc. Each location looks differently. This may impact the ability to train an algorithm on one location and test on another location. This project uses the INRIA building dataset to investigate the impact of different geographies on the performance of building detection and segmentation techniques using satellite imagery.</li>
-<li><strong>Build your own tool</strong>. Great value can come from making a tool available for use, but building the infrastructure is a challenge. You may want to create a chatbot that creates poetry based on themes that you feed in, or design a search tool that scans satellite data of the Earth for signs of natural disasters. The key here is that your tool will need to be functional and usable by your target audience.</li>
+<li><strong>Design your own project based on a question or problem</strong>. How well can you detect a disease using only data that might be available through sensors on a smart watch? How well do interpretable machine learning techniques perform in predicting recidivism as compared to less interpretable or explainable methodologies?</li>
+<li><strong>Reproduce the work of a published study and build on it</strong>. Reproducing the results of a journal article can be a great way to dive into advanced materials. The goal for a project like this would be to reproduce the study and build on it in some way: test a new hypothesis, adjust the methodology, try it on other data that may present new and interesting challenges. Reproducing papers can be hard, so you’ll want to choose wisely and make clear what your innovation will be. As a starting place, you can explore <a href="https://paperswithcode.com/">Papers with Code</a> which typically have papers where the code and the data are both shared, often making reproducing their work simpler.</li>
+<li><strong>Participate in an active machine learning competition</strong>. Online machine learning competitions are sponsored by organizations with a significantly high interest in a problem that they are investing prize money into finding a solution. Examples of competition platforms include <a href="https://www.kaggle.com/competitions">Kaggle</a>, <a href="https://www.drivendata.org/competitions/">Driven Data</a>, <a href="https://zindi.africa/competitions">Zindi</a>, <a href="https://www.aicrowd.com/">AICrowd</a>, etc. If you choose to participate in a competition, it must be an active competition where your team can compete; it cannot be a “sample” competition that is only for learning to use the platform (e.g.&nbsp;the Kaggle Titanic competition, etc.). You will want to learn about the application domain.</li>
+<li><strong>Build your own tool</strong>. Great value can come from making a tool available for use, but building the infrastructure is a challenge. You may want to create a chatbot that creates poetry based on themes that you feed in, or design a search tool that scans satellite data of the Earth for signs of natural disasters. The key here is that your tool will need to be functional and usable by your target audience. For this path, part of your output should be a demonstration of your tool.</li>
 </ul>
 
 
