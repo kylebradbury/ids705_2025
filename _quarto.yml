@@ -54,6 +54,7 @@ website:
           - notebooks/assignment2.ipynb
           - notebooks/assignment3.ipynb
           - notebooks/assignment4.ipynb
+          - notebooks/assignment5.ipynb
           - project.qmd
       - section: "Resources"
         contents:
