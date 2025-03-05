@@ -356,14 +356,14 @@ The schedule below is a guide to what we will be covering throughout the semeste
 
 <tr class="table-warning">
     <td><b>Deliverable</b></td>
-    <td class="date">Thursday <br> Mar 6</td>
+    <td class="date">Friday <br> <s>Mar 6</s><br> Mar 7</td>
     <td><b>Assignment #4 Due (at 9pm)</b><br>Neural Networks</td>
     <td></td>
     <td>
       <!-- [assignment] <br> -->
-      [submit]<br>
+      <!-- [submit]<br> -->
       <a href="https://kylebradbury.github.io/ids705/notebooks/assignment4.html">[assignment]</a><br>
-      <!-- <a href="https://www.gradescope.com/">[submit]</a><br> -->
+      <a href="https://www.gradescope.com/">[submit]</a><br>
       <a href="https://github.com/kylebradbury/neural-network-math/raw/master/neural_network_math.pdf">[NN Math Guide]</a>
     </td>
   </tr>
