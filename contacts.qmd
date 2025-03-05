@@ -21,7 +21,7 @@ Dr. Kyle Bradbury develops and applies machine learning techniques to better und
 ### Teaching Assistants
 
 ::: {layout-nrow=1}
-![Poojitha Balamurugan ([{{< fa envelope >}}](mailto: poojitha.balamurugan@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/poojithabalamurugan/))](img/balamurugan_poojitha.jpg){fig-align="left"}
+![Kian Bagherlee ([{{< fa envelope >}}](mailto: kian.bagherlee@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/kian-bagherlee/))](img/kian_bagherlee.jpg){fig-align="left"}
 
 ![Aarya Desai ([{{< fa envelope >}}](mailto: aarya.desai@duke.edu), [{{< fa brands linkedin >}}](https://www.linkedin.com/in/aarya-desai-716615169/))](img/aarya_desai.jpg){fig-align="left"}
 
