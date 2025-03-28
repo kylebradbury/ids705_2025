@@ -1019,7 +1019,7 @@
     "href": "notebooks/assignment6.html#learning-objectives",
     "title": "Assignment 6",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAfter completing this assignment, you will be able to… - Clearly articulate the role of the key components of reinforcement learning: the agent, actions, rewards, policies, state values, and action values. - Apply policy evaluation to a problem in practice - Use Monte Carlo control to determine and apply an optimal policy for a reinforcement learning problem and learn an optimal strategy from trial and error, alone",
+    "text": "Learning objectives\nAfter completing this assignment, you will be able to…\n\nClearly articulate the role of the key components of reinforcement learning: the agent, actions, rewards, policies, state values, and action values.\nApply policy evaluation to a problem in practice\nUse Monte Carlo control to determine and apply an optimal policy for a reinforcement learning problem and learn an optimal strategy from trial and error, alone",
     "crumbs": [
       "Schedule",
       "Assignments",
