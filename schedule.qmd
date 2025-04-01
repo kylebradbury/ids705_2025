@@ -473,8 +473,8 @@ The schedule below is a guide to what we will be covering throughout the semeste
     </td>
     <td>RL Ch 4</td>
     <td>
-      [slides]
-      <!-- <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture22_reinforcement_learning_3.pdf">[slides]</a> -->
+      <!-- [slides] -->
+      <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture22_reinforcement_learning_3.pdf">[slides]</a>
     </td>
   </tr>
 
@@ -518,8 +518,8 @@ The schedule below is a guide to what we will be covering throughout the semeste
     <td class="lecnum">Lecture 25</td>
     <td class="date">Thursday <br> Apr 10</td>
     <td>
-      <b>Practical Considerations and Advanced Topics II</b> <br>
-      A survey of practical considerations and advanced topics
+      <b>Make up quiz session (attendance is required)</b> <br>
+      An in-class comprehensive quiz than can *only help* your quiz score. Please bring a writing implement, a calculator, and an electronic device for submission. 
     </td>
     <td>None</td>
     <td>
@@ -532,7 +532,7 @@ The schedule below is a guide to what we will be covering throughout the semeste
     <td class="lecnum">Lecture 26</td>
     <td class="date">Tuesday <br> Apr 15</td>
     <td>
-      <b>Practical Considerations and Advanced Topics III</b> <br>
+      <b>Practical Considerations and Advanced Topics II</b> <br>
       A survey of practical considerations and advanced topics
     </td>
     <td>None</td>
