@@ -572,7 +572,7 @@ The schedule below is a guide to what we will be covering throughout the semeste
       Meets during the final exam period<br><br> Due on this day:
       <ul>
         <li>Final Project Report (due by 9am on GradeScope)</li>
-        <li>Final Project Presentation (due by 9am; submit <a href="https://docs.google.com/spreadsheets/d/1JIUMsAkm34bkzbMa2y-5QNfEQowTt-9nEt65o9tFyy0/edit?usp=sharing">the link to your slides here</li>
+        <li>Final Project Presentation (due by 9am; submit <a href="https://docs.google.com/spreadsheets/d/1JIUMsAkm34bkzbMa2y-5QNfEQowTt-9nEt65o9tFyy0/edit?usp=sharing">the link to your slides here</a></li>
         <li>Project Github Repository (due by 9am on GradeScope)</li>
         <li>Final Project Peer Evaluation (due by 9pm; submit via TEAMMATES, see email)</li>
       </ul>
