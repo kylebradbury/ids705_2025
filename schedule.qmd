@@ -534,8 +534,8 @@ The schedule below is a guide to what we will be covering throughout the semeste
     </td>
     <td>None</td>
     <td>
-      [slides]
-      <!-- <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture25_machine_learning_frontiers.pdf">[slides]</a> -->
+      <!-- [slides] -->
+      <a href="https://github.com/kylebradbury/ids705/raw/main/lectures/lecture25_machine_learning_frontiers.pdf">[slides]</a>
     </td>
   </tr>
 
@@ -545,10 +545,10 @@ The schedule below is a guide to what we will be covering throughout the semeste
     <td><b>Draft Final Project Report Due (at 9pm)</b></td>
     <td></td>
     <td>
-      [project] <br>
-      [submit]
-      <!-- <a href="https://kylebradbury.github.io/ids705/project.html#finalreport">[project]</a><br> -->
-      <!-- <a href="https://www.gradescope.com/">[submit]</a> -->
+      <!-- [project] <br> -->
+      <!-- [submit] -->
+      <a href="https://kylebradbury.github.io/ids705/project.html#finalreport">[project]</a><br>
+      <a href="https://www.gradescope.com/">[submit]</a>
     </td>
   </tr>
 
@@ -558,9 +558,9 @@ The schedule below is a guide to what we will be covering throughout the semeste
     <td><b>(Optional) Assignment #6 Due (at 9pm)</b><br>Reinforcement learning</td>
     <td></td>
     <td>
-      [assignment]
-      <!-- <a href="https://github.com/kylebradbury/ids705/blob/main/assignments/Assignment_6.ipynb">[assignment]</a><br> -->
-      <!-- <a href="https://www.gradescope.com/">[submit]</a> -->
+      <!-- [assignment] -->
+      <a href="https://kylebradbury.github.io/ids705/notebooks/assignment6.html">[assignment]</a><br>
+      <a href="https://www.gradescope.com/">[submit]</a>
     </td>
   </tr>
 
@@ -579,8 +579,8 @@ The schedule below is a guide to what we will be covering throughout the semeste
     </td>
     <td></td>
     <td>
-      [project]
-      <!-- <a href="https://kylebradbury.github.io/ids705/project.html">[project]</a> -->
+      <!-- [project] -->
+      <a href="https://kylebradbury.github.io/ids705/project.html">[project]</a>
     </td>
   </tr>
 
