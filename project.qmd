@@ -85,7 +85,7 @@ Be sure to practice your presentation, ask your friends (especially those who ma
 
 Your github respository should (a) contain a descriptive README.md file that explains what the repo is for, and how to use the code to reproduce your work (including how to set it up to run), (b) be well commented throughout all files, (c) list all dependencies in a requirements.txt file, (d) inform the user how to get the data and includes all preprocessing code, and (e) actually runs (i.e. we can successfully test it) and does what it says
 
-Also include a copy of your final report and a link to your project video from the README.md file.
+~~Also include a copy of your final report and a link to your project video from the README.md file.~~
 
 ## Peer Evaluation
 
