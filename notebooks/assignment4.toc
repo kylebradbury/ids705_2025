@@ -1,0 +1,4 @@
+\contentsline {subsection}{\nonumberline Instructions}{1}{section*.2}%
+\contentsline {subsection}{\nonumberline Learning objectives}{1}{section*.3}%
+\contentsline {subsection}{\nonumberline Exercise 1 - Exploring and optimizing neural network hyperparameters}{2}{section*.4}%
+\contentsline {subsection}{\nonumberline Exercise 2 - Build and test your own Neural Network for classification}{9}{section*.5}%

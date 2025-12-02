@@ -14,6 +14,12 @@ toc: true
 number-sections: false
 ---
 
+::: {.callout-warning}
+## Caution - Archived Course
+
+This is an archived website for a past offering of IDS705 from Spring 2025. Please visit [this website](https://kylebradbury.github.io/ids705/) for the latest semester.
+:::
+
 ![](img/decision-boundaries.png)
 
 
